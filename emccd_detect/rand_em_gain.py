@@ -66,6 +66,8 @@ def _apply_gain(n_in_array, em_gain, max_out):
         inds = np.where(n_in_array == n_in)[0]
         n_out_array[inds] = _rand_pdf(n_in, em_gain, max_out, len(inds))
 
+    #n_out_array[n_in_array > 0] = _rand_pdf(n_in_array[n_in_array > 0],
+    #        em_gain, max_out, 1)
     return n_out_array
 
 
