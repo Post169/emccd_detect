@@ -92,7 +92,10 @@ def _rand_pdf(n_in, em_gain, x_max, size):
             # Draw random samples from the CDF
             cdf_lookups = (cdf.max() - cdf.min()) * x + cdf.min()
             n_out = x_axis[np.searchsorted(cdf, cdf_lookups)]  # XXX This could be made more accurate
-
+            # could do a minimize function to solve for x; could make x_axis have more points;
+            # could use the more accurate formulas for n >=3 as well (making a function to calculate it
+            # using convolution formula found in arXiv paper mentioned in doc string of this file;
+            # can't get explicit inverse of cdf for n >=3 cases
     return np.round(n_out)
 
 
@@ -116,3 +119,7 @@ def _get_cdf(n_in, em_gain, x):
         cdf = np.cumsum(pdf / sum_pdf)
 
     return cdf
+
+if __name__ == '__main__':
+    n_in_array = [1, 2, 3, 4, 5]
+    print(rand_em_gain(n_in_array, 2000, 60000))
