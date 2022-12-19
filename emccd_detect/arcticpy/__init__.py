@@ -1,7 +1,7 @@
 from autoarray.instruments import acs
-import pyximport
-pyximport.install()
-import Cython
+# import pyximport
+# pyximport.install()
+# import Cython
 from emccd_detect.arcticpy.main import add_cti, remove_cti, model_for_HST_ACS
 from emccd_detect.arcticpy.roe import (
     ROE,

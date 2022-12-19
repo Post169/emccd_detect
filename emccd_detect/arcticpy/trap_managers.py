@@ -11,8 +11,9 @@ from emccd_detect.arcticpy.traps import (
 )
 from emccd_detect.arcticpy.ccd import CCD, CCDPhase
 import pyximport
-pyximport.install()
+pyximport.install(setup_args={"script_args" : ["--verbose"]})
 from emccd_detect.arcticpy.trap_managers_utils import (
+# from .trap_managers_utils import (
     cy_value_in_cumsum,
     cy_n_trapped_electrons_from_watermarks,
     cy_watermark_index_above_cloud_from_cloud_fractional_volume,

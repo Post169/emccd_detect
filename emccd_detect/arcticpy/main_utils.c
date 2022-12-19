@@ -10,11 +10,11 @@
             ]
         ],
         "depends": [
-            "C:\\Users\\Kevin\\anaconda3\\envs\\arctic_test\\lib\\site-packages\\numpy\\core\\include\\numpy\\arrayobject.h",
-            "C:\\Users\\Kevin\\anaconda3\\envs\\arctic_test\\lib\\site-packages\\numpy\\core\\include\\numpy\\arrayscalars.h",
-            "C:\\Users\\Kevin\\anaconda3\\envs\\arctic_test\\lib\\site-packages\\numpy\\core\\include\\numpy\\ndarrayobject.h",
-            "C:\\Users\\Kevin\\anaconda3\\envs\\arctic_test\\lib\\site-packages\\numpy\\core\\include\\numpy\\ndarraytypes.h",
-            "C:\\Users\\Kevin\\anaconda3\\envs\\arctic_test\\lib\\site-packages\\numpy\\core\\include\\numpy\\ufuncobject.h"
+            "C:\\Users\\Kevin\\anaconda3\\envs\\arctic_test_py7\\lib\\site-packages\\numpy\\core\\include\\numpy\\arrayobject.h",
+            "C:\\Users\\Kevin\\anaconda3\\envs\\arctic_test_py7\\lib\\site-packages\\numpy\\core\\include\\numpy\\arrayscalars.h",
+            "C:\\Users\\Kevin\\anaconda3\\envs\\arctic_test_py7\\lib\\site-packages\\numpy\\core\\include\\numpy\\ndarrayobject.h",
+            "C:\\Users\\Kevin\\anaconda3\\envs\\arctic_test_py7\\lib\\site-packages\\numpy\\core\\include\\numpy\\ndarraytypes.h",
+            "C:\\Users\\Kevin\\anaconda3\\envs\\arctic_test_py7\\lib\\site-packages\\numpy\\core\\include\\numpy\\ufuncobject.h"
         ],
         "extra_compile_args": [
             "-std=c99"
@@ -23,15 +23,15 @@
             "-std=c99"
         ],
         "include_dirs": [
-            "C:\\Users\\Kevin\\anaconda3\\envs\\arctic_test\\lib\\site-packages\\numpy\\core\\include"
+            "C:\\Users\\Kevin\\anaconda3\\envs\\arctic_test_py7\\lib\\site-packages\\numpy\\core\\include"
         ],
         "language": "c",
-        "name": "arcticpy.main_utils",
+        "name": "emccd_detect.arcticpy.main_utils",
         "sources": [
-            "arcticpy/main_utils.pyx"
+            "emccd_detect/arcticpy/main_utils.pyx"
         ]
     },
-    "module_name": "arcticpy.main_utils"
+    "module_name": "emccd_detect.arcticpy.main_utils"
 }
 END: Cython Metadata */
 
@@ -773,8 +773,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__arcticpy__main_utils
-#define __PYX_HAVE_API__arcticpy__main_utils
+#define __PYX_HAVE__emccd_detect__arcticpy__main_utils
+#define __PYX_HAVE_API__emccd_detect__arcticpy__main_utils
 /* Early includes */
 #include <string.h>
 #include <stdio.h>
@@ -1020,7 +1020,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "arcticpy\\main_utils.pyx",
+  "emccd_detect\\arcticpy\\main_utils.pyx",
   "__init__.pxd",
   "stringsource",
   "type.pxd",
@@ -1130,7 +1130,7 @@ typedef struct {
 } __Pyx_BufFmt_Context;
 
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":689
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":690
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1139,7 +1139,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":690
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":691
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1148,7 +1148,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":691
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":692
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1157,7 +1157,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":692
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":693
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1166,7 +1166,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":696
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":697
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1175,7 +1175,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":697
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":698
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1184,7 +1184,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":698
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":699
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1193,7 +1193,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":699
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":700
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1202,7 +1202,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":703
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":704
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1211,7 +1211,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":704
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":705
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1220,7 +1220,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":713
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":714
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -1229,7 +1229,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":714
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":715
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -1238,7 +1238,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":715
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":716
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1247,7 +1247,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":717
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":718
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -1256,7 +1256,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":718
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":719
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -1265,7 +1265,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":719
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":720
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1274,7 +1274,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":721
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":722
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1283,7 +1283,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":722
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":723
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1292,7 +1292,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":724
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":725
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1301,7 +1301,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":725
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":726
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1310,7 +1310,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":726
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":727
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1349,7 +1349,7 @@ struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":728
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":729
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1358,7 +1358,7 @@ struct __pyx_memoryviewslice_obj;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":729
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":730
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1367,7 +1367,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":730
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":731
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1376,7 +1376,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":732
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":733
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -2641,7 +2641,7 @@ static PyTypeObject *__pyx_ptype_5numpy_ufunc = 0;
 
 /* Module declarations from 'cython' */
 
-/* Module declarations from 'arcticpy.main_utils' */
+/* Module declarations from 'emccd_detect.arcticpy.main_utils' */
 static PyTypeObject *__pyx_array_type = 0;
 static PyTypeObject *__pyx_MemviewEnum_type = 0;
 static PyTypeObject *__pyx_memoryview_type = 0;
@@ -2689,11 +2689,11 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *, 
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_float64_t = { "float64_t", NULL, sizeof(__pyx_t_5numpy_float64_t), { 0 }, 0, 'R', 0, 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_uint8_t = { "uint8_t", NULL, sizeof(__pyx_t_5numpy_uint8_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5numpy_uint8_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5numpy_uint8_t), 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5numpy_int64_t = { "int64_t", NULL, sizeof(__pyx_t_5numpy_int64_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5numpy_int64_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5numpy_int64_t), 0 };
-#define __Pyx_MODULE_NAME "arcticpy.main_utils"
-extern int __pyx_module_is_main_arcticpy__main_utils;
-int __pyx_module_is_main_arcticpy__main_utils = 0;
+#define __Pyx_MODULE_NAME "emccd_detect.arcticpy.main_utils"
+extern int __pyx_module_is_main_emccd_detect__arcticpy__main_utils;
+int __pyx_module_is_main_emccd_detect__arcticpy__main_utils = 0;
 
-/* Implementation of 'arcticpy.main_utils' */
+/* Implementation of 'emccd_detect.arcticpy.main_utils' */
 static PyObject *__pyx_builtin_max;
 static PyObject *__pyx_builtin_min;
 static PyObject *__pyx_builtin_range;
@@ -2801,7 +2801,6 @@ static const char __pyx_k_dwell_times[] = "dwell_times";
 static const char __pyx_k_is_c_contig[] = "is_c_contig";
 static const char __pyx_k_is_f_contig[] = "is_f_contig";
 static const char __pyx_k_row_indices[] = "row_indices";
-static const char __pyx_k_arcticpy_roe[] = "arcticpy.roe";
 static const char __pyx_k_column_index[] = "column_index";
 static const char __pyx_k_copy_fortran[] = "copy_fortran";
 static const char __pyx_k_pyx_checksum[] = "__pyx_checksum";
@@ -2841,7 +2840,6 @@ static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 static const char __pyx_k_express_mulitplier[] = "express_mulitplier";
 static const char __pyx_k_express_multiplier[] = "express_multiplier";
 static const char __pyx_k_strided_and_direct[] = "<strided and direct>";
-static const char __pyx_k_arcticpy_main_utils[] = "arcticpy.main_utils";
 static const char __pyx_k_n_rows_zero_padding[] = "n_rows_zero_padding";
 static const char __pyx_k_window_column_range[] = "window_column_range";
 static const char __pyx_k_Enum___reduce_cython[] = "Enum.__reduce_cython__";
@@ -2853,11 +2851,9 @@ static const char __pyx_k_contiguous_and_direct[] = "<contiguous and direct>";
 static const char __pyx_k_well_filling_function[] = "well_filling_function";
 static const char __pyx_k_Enum___setstate_cython[] = "Enum.__setstate_cython__";
 static const char __pyx_k_MemoryView_of_r_object[] = "<MemoryView of %r object>";
-static const char __pyx_k_arcticpy_trap_managers[] = "arcticpy.trap_managers";
 static const char __pyx_k_memoryview_is_c_contig[] = "memoryview.is_c_contig";
 static const char __pyx_k_memoryview_is_f_contig[] = "memoryview.is_f_contig";
 static const char __pyx_k_MemoryView_of_r_at_0x_x[] = "<MemoryView of %r at 0x%x>";
-static const char __pyx_k_arcticpy_main_utils_pyx[] = "arcticpy\\main_utils.pyx";
 static const char __pyx_k_array___setstate_cython[] = "array.__setstate_cython__";
 static const char __pyx_k_contiguous_and_indirect[] = "<contiguous and indirect>";
 static const char __pyx_k_memoryview_copy_fortran[] = "memoryview.copy_fortran";
@@ -2866,6 +2862,7 @@ static const char __pyx_k_save_trap_states_matrix[] = "save_trap_states_matrix";
 static const char __pyx_k_Cannot_index_with_type_s[] = "Cannot index with type '%s'";
 static const char __pyx_k_capture_from_which_pixel[] = "capture_from_which_pixel";
 static const char __pyx_k_Invalid_shape_in_axis_d_d[] = "Invalid shape in axis %d: %d.";
+static const char __pyx_k_emccd_detect_arcticpy_roe[] = "emccd_detect.arcticpy.roe";
 static const char __pyx_k_release_fraction_to_pixel[] = "release_fraction_to_pixel";
 static const char __pyx_k_memoryview___reduce_cython[] = "memoryview.__reduce_cython__";
 static const char __pyx_k_empty_traps_between_columns[] = "empty_traps_between_columns";
@@ -2890,6 +2887,8 @@ static const char __pyx_k_Invalid_mode_expected_c_or_fortr[] = "Invalid mode, ex
 static const char __pyx_k_Out_of_bounds_on_buffer_access_a[] = "Out of bounds on buffer access (axis %d)";
 static const char __pyx_k_Unable_to_convert_item_to_object[] = "Unable to convert item to object";
 static const char __pyx_k_cy_clock_charge_in_one_direction[] = "cy_clock_charge_in_one_direction";
+static const char __pyx_k_emccd_detect_arcticpy_main_utils[] = "emccd_detect\\arcticpy\\main_utils.pyx";
+static const char __pyx_k_emccd_detect_arcticpy_trap_manag[] = "emccd_detect.arcticpy.trap_managers";
 static const char __pyx_k_express_matrix_and_monitor_traps[] = "express_matrix_and_monitor_traps_matrix_from_pixels_and_express";
 static const char __pyx_k_got_differing_extents_in_dimensi[] = "got differing extents in dimension %d (got %d and %d)";
 static const char __pyx_k_n_electrons_released_and_capture[] = "n_electrons_released_and_captured";
@@ -2897,6 +2896,7 @@ static const char __pyx_k_no_default___reduce___due_to_non[] = "no default __red
 static const char __pyx_k_numpy_core_umath_failed_to_impor[] = "numpy.core.umath failed to import";
 static const char __pyx_k_save_trap_states_matrix_from_exp[] = "save_trap_states_matrix_from_express_matrix";
 static const char __pyx_k_unable_to_allocate_shape_and_str[] = "unable to allocate shape and strides.";
+static const char __pyx_k_emccd_detect_arcticpy_main_utils_2[] = "emccd_detect.arcticpy.main_utils";
 static PyObject *__pyx_n_s_ASCII;
 static PyObject *__pyx_n_s_AllTrapManager;
 static PyObject *__pyx_kp_s_Buffer_view_does_not_expose_stri;
@@ -2926,10 +2926,6 @@ static PyObject *__pyx_kp_s_Unable_to_convert_item_to_object;
 static PyObject *__pyx_n_s_ValueError;
 static PyObject *__pyx_n_s_View_MemoryView;
 static PyObject *__pyx_n_s_allocate_buffer;
-static PyObject *__pyx_n_s_arcticpy_main_utils;
-static PyObject *__pyx_kp_s_arcticpy_main_utils_pyx;
-static PyObject *__pyx_n_s_arcticpy_roe;
-static PyObject *__pyx_n_s_arcticpy_trap_managers;
 static PyObject *__pyx_n_s_array;
 static PyObject *__pyx_n_s_array___reduce_cython;
 static PyObject *__pyx_n_s_array___setstate_cython;
@@ -2959,6 +2955,10 @@ static PyObject *__pyx_n_s_dtype;
 static PyObject *__pyx_n_s_dtype_is_object;
 static PyObject *__pyx_n_s_dwell_time;
 static PyObject *__pyx_n_s_dwell_times;
+static PyObject *__pyx_kp_s_emccd_detect_arcticpy_main_utils;
+static PyObject *__pyx_n_s_emccd_detect_arcticpy_main_utils_2;
+static PyObject *__pyx_n_s_emccd_detect_arcticpy_roe;
+static PyObject *__pyx_n_s_emccd_detect_arcticpy_trap_manag;
 static PyObject *__pyx_n_s_empty_all_traps;
 static PyObject *__pyx_n_s_empty_traps_between_columns;
 static PyObject *__pyx_n_s_encode;
@@ -3091,7 +3091,7 @@ static PyObject *__pyx_n_s_window_column_range;
 static PyObject *__pyx_n_s_window_row_range;
 static PyObject *__pyx_n_s_zero_padding;
 static PyObject *__pyx_n_s_zeros;
-static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_direction(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_image_in, PyObject *__pyx_v_ccd, PyObject *__pyx_v_roe, PyObject *__pyx_v_traps, PyObject *__pyx_v_express, PyObject *__pyx_v_offset, PyObject *__pyx_v_window_row_range, PyObject *__pyx_v_window_column_range, PyObject *__pyx_v_time_window_range); /* proto */
+static PyObject *__pyx_pf_12emccd_detect_8arcticpy_10main_utils_cy_clock_charge_in_one_direction(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_image_in, PyObject *__pyx_v_ccd, PyObject *__pyx_v_roe, PyObject *__pyx_v_traps, PyObject *__pyx_v_express, PyObject *__pyx_v_offset, PyObject *__pyx_v_window_row_range, PyObject *__pyx_v_window_column_range, PyObject *__pyx_v_time_window_range); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __pyx_array_obj *__pyx_v_self, PyObject *__pyx_v_shape, Py_ssize_t __pyx_v_itemsize, PyObject *__pyx_v_format, PyObject *__pyx_v_mode, int __pyx_v_allocate_buffer); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array_2__getbuffer__(struct __pyx_array_obj *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_array___pyx_pf_15View_dot_MemoryView_5array_4__dealloc__(struct __pyx_array_obj *__pyx_v_self); /* proto */
@@ -3200,7 +3200,7 @@ static PyObject *__pyx_codeobj__32;
 static PyObject *__pyx_codeobj__34;
 /* Late includes */
 
-/* "arcticpy/main_utils.pyx":14
+/* "emccd_detect/arcticpy/main_utils.pyx":14
  * @cython.nonecheck(False)
  * @cython.wraparound(False)
  * def cy_clock_charge_in_one_direction(             # <<<<<<<<<<<<<<
@@ -3209,10 +3209,10 @@ static PyObject *__pyx_codeobj__34;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8arcticpy_10main_utils_1cy_clock_charge_in_one_direction(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_8arcticpy_10main_utils_cy_clock_charge_in_one_direction[] = "\n    Add CTI trails to an image by trapping, releasing, and moving electrons \n    along their independent columns.\n    \n    Parameters\n    ----------\n    image : [[float]]\n        The input array of pixel values, assumed to be in units of electrons.\n    \n        The first dimension is the \"row\" index, the second is the \"column\" \n        index. By default (for parallel clocking), charge is transferred \"up\" \n        from row n to row 0 along each independent column. i.e. the readout \n        register is above row 0. (For serial clocking, the image is rotated \n        beforehand, outside of this function, see add_cti().)\n    \n        e.g. (with arbitrary trap parameters)\n        Initial image with one bright pixel in the first three columns:\n            [[0.0,     0.0,     0.0,     0.0  ], \n             [200.0,   0.0,     0.0,     0.0  ], \n             [0.0,     200.0,   0.0,     0.0  ], \n             [0.0,     0.0,     200.0,   0.0  ], \n             [0.0,     0.0,     0.0,     0.0  ], \n             [0.0,     0.0,     0.0,     0.0  ]]\n        Final image with CTI trails behind each bright pixel:\n            [[0.0,     0.0,     0.0,     0.0  ], \n             [196.0,   0.0,     0.0,     0.0  ], \n             [3.0,     194.1,   0.0,     0.0  ], \n             [2.0,     3.9,     192.1,   0.0  ], \n             [1.3,     2.5,     4.8,     0.0  ], \n             [0.8,     1.5,     2.9,     0.0  ]]\n    \n    roe : ROE\n        An object describing the timing and direction(s) in which electrons are \n        moved during readout.\n    \n    ccd : CCD\n        An object describing the way in which a cloud of electrons fills the CCD \n        volume. \n    \n    traps : [Trap] or [[Trap]]\n        A list of one or more trap objects. To use different types of traps that\n        will require different watermark levels, pass a 2D list of lists, i.e. a \n        list containing lists of one or more traps for each type. \n    \n    express : int\n   ""     The number of times the pixel-to-pixel transfers are computed, \n        determining the balance between accuracy (high values) and speed \n        (low values) (Massey et al. 2014, section 2.1.5).\n            n_pix   (slower, accurate) Compute every pixel-to-pixel \n                    transfer. The default 0 = alias for n_pix.\n            k       Recompute on k occasions the effect of each transfer.  \n                    After a few transfers (and e.g. eroded leading edges),  \n                    the incremental effect of subsequent transfers can change.\n            1       (faster, approximate) Compute the effect of each \n                    transfer only once.\n        Runtime scales approximately as O(express^0.5). ###WIP\n    \n    offset : int (>= 0)\n        The number of (e.g. prescan) pixels separating the supplied image from \n        the readout register.\n    \n    window_row_range : range\n        The subset of row pixels to model, to save time when only a specific \n        region of the image is of interest. Defaults to range(0, n_pixels) for \n        the full image.\n    \n    window_column_range : range\n        The subset of column pixels to model, to save time when only a specific \n        region of the image is of interest. Defaults to range(0, n_columns) for \n        the full image.\n    \n    time_window_range : range\n        The subset of transfers to implement. Defaults to range(0, n_pixels) for \n        the full image. e.g. range(0, n_pixels/3) to do only the first third of \n        the pixel-to-pixel transfers.\n    \n        The entire readout is still modelled, but only the results from this \n        subset of transfers are implemented in the final image.\n    \n    Returns\n    -------\n    image : [[float]]\n        The output array of pixel values.\n    ";
-static PyMethodDef __pyx_mdef_8arcticpy_10main_utils_1cy_clock_charge_in_one_direction = {"cy_clock_charge_in_one_direction", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8arcticpy_10main_utils_1cy_clock_charge_in_one_direction, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8arcticpy_10main_utils_cy_clock_charge_in_one_direction};
-static PyObject *__pyx_pw_8arcticpy_10main_utils_1cy_clock_charge_in_one_direction(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_12emccd_detect_8arcticpy_10main_utils_1cy_clock_charge_in_one_direction(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_12emccd_detect_8arcticpy_10main_utils_cy_clock_charge_in_one_direction[] = "\n    Add CTI trails to an image by trapping, releasing, and moving electrons\n    along their independent columns.\n\n    Parameters\n    ----------\n    image : [[float]]\n        The input array of pixel values, assumed to be in units of electrons.\n\n        The first dimension is the \"row\" index, the second is the \"column\"\n        index. By default (for parallel clocking), charge is transferred \"up\"\n        from row n to row 0 along each independent column. i.e. the readout\n        register is above row 0. (For serial clocking, the image is rotated\n        beforehand, outside of this function, see add_cti().)\n\n        e.g. (with arbitrary trap parameters)\n        Initial image with one bright pixel in the first three columns:\n            [[0.0,     0.0,     0.0,     0.0  ],\n             [200.0,   0.0,     0.0,     0.0  ],\n             [0.0,     200.0,   0.0,     0.0  ],\n             [0.0,     0.0,     200.0,   0.0  ],\n             [0.0,     0.0,     0.0,     0.0  ],\n             [0.0,     0.0,     0.0,     0.0  ]]\n        Final image with CTI trails behind each bright pixel:\n            [[0.0,     0.0,     0.0,     0.0  ],\n             [196.0,   0.0,     0.0,     0.0  ],\n             [3.0,     194.1,   0.0,     0.0  ],\n             [2.0,     3.9,     192.1,   0.0  ],\n             [1.3,     2.5,     4.8,     0.0  ],\n             [0.8,     1.5,     2.9,     0.0  ]]\n\n    roe : ROE\n        An object describing the timing and direction(s) in which electrons are\n        moved during readout.\n\n    ccd : CCD\n        An object describing the way in which a cloud of electrons fills the CCD\n        volume.\n\n    traps : [Trap] or [[Trap]]\n        A list of one or more trap objects. To use different types of traps that\n        will require different watermark levels, pass a 2D list of lists, i.e. a\n        list containing lists of one or more traps for each type.\n\n    express : int\n        The number of times the pixel-to-pixel tran""sfers are computed,\n        determining the balance between accuracy (high values) and speed\n        (low values) (Massey et al. 2014, section 2.1.5).\n            n_pix   (slower, accurate) Compute every pixel-to-pixel\n                    transfer. The default 0 = alias for n_pix.\n            k       Recompute on k occasions the effect of each transfer.\n                    After a few transfers (and e.g. eroded leading edges),\n                    the incremental effect of subsequent transfers can change.\n            1       (faster, approximate) Compute the effect of each\n                    transfer only once.\n        Runtime scales approximately as O(express^0.5). ###WIP\n\n    offset : int (>= 0)\n        The number of (e.g. prescan) pixels separating the supplied image from\n        the readout register.\n\n    window_row_range : range\n        The subset of row pixels to model, to save time when only a specific\n        region of the image is of interest. Defaults to range(0, n_pixels) for\n        the full image.\n\n    window_column_range : range\n        The subset of column pixels to model, to save time when only a specific\n        region of the image is of interest. Defaults to range(0, n_columns) for\n        the full image.\n\n    time_window_range : range\n        The subset of transfers to implement. Defaults to range(0, n_pixels) for\n        the full image. e.g. range(0, n_pixels/3) to do only the first third of\n        the pixel-to-pixel transfers.\n\n        The entire readout is still modelled, but only the results from this\n        subset of transfers are implemented in the final image.\n\n    Returns\n    -------\n    image : [[float]]\n        The output array of pixel values.\n    ";
+static PyMethodDef __pyx_mdef_12emccd_detect_8arcticpy_10main_utils_1cy_clock_charge_in_one_direction = {"cy_clock_charge_in_one_direction", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_12emccd_detect_8arcticpy_10main_utils_1cy_clock_charge_in_one_direction, METH_VARARGS|METH_KEYWORDS, __pyx_doc_12emccd_detect_8arcticpy_10main_utils_cy_clock_charge_in_one_direction};
+static PyObject *__pyx_pw_12emccd_detect_8arcticpy_10main_utils_1cy_clock_charge_in_one_direction(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_image_in = 0;
   PyObject *__pyx_v_ccd = 0;
   PyObject *__pyx_v_roe = 0;
@@ -3340,18 +3340,18 @@ static PyObject *__pyx_pw_8arcticpy_10main_utils_1cy_clock_charge_in_one_directi
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("cy_clock_charge_in_one_direction", 1, 9, 9, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 14, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("arcticpy.main_utils.cy_clock_charge_in_one_direction", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("emccd_detect.arcticpy.main_utils.cy_clock_charge_in_one_direction", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_direction(__pyx_self, __pyx_v_image_in, __pyx_v_ccd, __pyx_v_roe, __pyx_v_traps, __pyx_v_express, __pyx_v_offset, __pyx_v_window_row_range, __pyx_v_window_column_range, __pyx_v_time_window_range);
+  __pyx_r = __pyx_pf_12emccd_detect_8arcticpy_10main_utils_cy_clock_charge_in_one_direction(__pyx_self, __pyx_v_image_in, __pyx_v_ccd, __pyx_v_roe, __pyx_v_traps, __pyx_v_express, __pyx_v_offset, __pyx_v_window_row_range, __pyx_v_window_column_range, __pyx_v_time_window_range);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_direction(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_image_in, PyObject *__pyx_v_ccd, PyObject *__pyx_v_roe, PyObject *__pyx_v_traps, PyObject *__pyx_v_express, PyObject *__pyx_v_offset, PyObject *__pyx_v_window_row_range, PyObject *__pyx_v_window_column_range, PyObject *__pyx_v_time_window_range) {
+static PyObject *__pyx_pf_12emccd_detect_8arcticpy_10main_utils_cy_clock_charge_in_one_direction(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_image_in, PyObject *__pyx_v_ccd, PyObject *__pyx_v_roe, PyObject *__pyx_v_traps, PyObject *__pyx_v_express, PyObject *__pyx_v_offset, PyObject *__pyx_v_window_row_range, PyObject *__pyx_v_window_column_range, PyObject *__pyx_v_time_window_range) {
   __Pyx_memviewslice __pyx_v_express_matrix = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_monitor_traps_matrix = { 0, 0, { 0 }, { 0 }, { 0 } };
   PyObject *__pyx_v_save_trap_states_matrix = NULL;
@@ -3434,7 +3434,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __Pyx_RefNannySetupContext("cy_clock_charge_in_one_direction", 0);
   __Pyx_TraceCall("cy_clock_charge_in_one_direction", __pyx_f[0], 14, 0, __PYX_ERR(0, 14, __pyx_L1_error));
 
-  /* "arcticpy/main_utils.pyx":119
+  /* "emccd_detect/arcticpy/main_utils.pyx":119
  *         express_matrix,
  *         monitor_traps_matrix,
  *     ) = roe.express_matrix_and_monitor_traps_matrix_from_pixels_and_express(             # <<<<<<<<<<<<<<
@@ -3445,7 +3445,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_roe, __pyx_n_s_express_matrix_and_monitor_traps); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 119, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
 
-  /* "arcticpy/main_utils.pyx":120
+  /* "emccd_detect/arcticpy/main_utils.pyx":120
  *         monitor_traps_matrix,
  *     ) = roe.express_matrix_and_monitor_traps_matrix_from_pixels_and_express(
  *         pixels=window_row_range,             # <<<<<<<<<<<<<<
@@ -3457,7 +3457,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_pixels, __pyx_v_window_row_range) < 0) __PYX_ERR(0, 120, __pyx_L1_error)
 
-  /* "arcticpy/main_utils.pyx":121
+  /* "emccd_detect/arcticpy/main_utils.pyx":121
  *     ) = roe.express_matrix_and_monitor_traps_matrix_from_pixels_and_express(
  *         pixels=window_row_range,
  *         express=express,             # <<<<<<<<<<<<<<
@@ -3467,7 +3467,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __Pyx_TraceLine(121,0,__PYX_ERR(0, 121, __pyx_L1_error))
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_express, __pyx_v_express) < 0) __PYX_ERR(0, 120, __pyx_L1_error)
 
-  /* "arcticpy/main_utils.pyx":122
+  /* "emccd_detect/arcticpy/main_utils.pyx":122
  *         pixels=window_row_range,
  *         express=express,
  *         offset=offset,             # <<<<<<<<<<<<<<
@@ -3477,7 +3477,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __Pyx_TraceLine(122,0,__PYX_ERR(0, 122, __pyx_L1_error))
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_offset, __pyx_v_offset) < 0) __PYX_ERR(0, 120, __pyx_L1_error)
 
-  /* "arcticpy/main_utils.pyx":123
+  /* "emccd_detect/arcticpy/main_utils.pyx":123
  *         express=express,
  *         offset=offset,
  *         time_window_range=time_window_range,             # <<<<<<<<<<<<<<
@@ -3487,7 +3487,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __Pyx_TraceLine(123,0,__PYX_ERR(0, 123, __pyx_L1_error))
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_time_window_range, __pyx_v_time_window_range) < 0) __PYX_ERR(0, 120, __pyx_L1_error)
 
-  /* "arcticpy/main_utils.pyx":119
+  /* "emccd_detect/arcticpy/main_utils.pyx":119
  *         express_matrix,
  *         monitor_traps_matrix,
  *     ) = roe.express_matrix_and_monitor_traps_matrix_from_pixels_and_express(             # <<<<<<<<<<<<<<
@@ -3546,7 +3546,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
     __pyx_L4_unpacking_done:;
   }
 
-  /* "arcticpy/main_utils.pyx":117
+  /* "emccd_detect/arcticpy/main_utils.pyx":117
  *     cdef np.uint8_t[:, ::1] monitor_traps_matrix
  *     (
  *         express_matrix,             # <<<<<<<<<<<<<<
@@ -3565,7 +3565,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "arcticpy/main_utils.pyx":128
+  /* "emccd_detect/arcticpy/main_utils.pyx":128
  *     # ; and whether the trap occupancy states must be saved for the next express
  *     # pass rather than being reset (usually at the end of each express pass)
  *     save_trap_states_matrix = roe.save_trap_states_matrix_from_express_matrix(             # <<<<<<<<<<<<<<
@@ -3576,7 +3576,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_roe, __pyx_n_s_save_trap_states_matrix_from_exp); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 128, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
 
-  /* "arcticpy/main_utils.pyx":129
+  /* "emccd_detect/arcticpy/main_utils.pyx":129
  *     # pass rather than being reset (usually at the end of each express pass)
  *     save_trap_states_matrix = roe.save_trap_states_matrix_from_express_matrix(
  *         express_matrix=express_matrix             # <<<<<<<<<<<<<<
@@ -3591,7 +3591,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_express_matrix, __pyx_t_2) < 0) __PYX_ERR(0, 129, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "arcticpy/main_utils.pyx":128
+  /* "emccd_detect/arcticpy/main_utils.pyx":128
  *     # ; and whether the trap occupancy states must be saved for the next express
  *     # pass rather than being reset (usually at the end of each express pass)
  *     save_trap_states_matrix = roe.save_trap_states_matrix_from_express_matrix(             # <<<<<<<<<<<<<<
@@ -3606,7 +3606,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __pyx_v_save_trap_states_matrix = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "arcticpy/main_utils.pyx":134
+  /* "emccd_detect/arcticpy/main_utils.pyx":134
  *     # Decide in advance which steps need to be evaluated and which can be skipped
  *     cdef np.int64_t i
  *     cdef np.int64_t[::1] phases_with_traps = np.array([             # <<<<<<<<<<<<<<
@@ -3624,7 +3624,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_8 = 0;
 
-    /* "arcticpy/main_utils.pyx":135
+    /* "emccd_detect/arcticpy/main_utils.pyx":135
  *     cdef np.int64_t i
  *     cdef np.int64_t[::1] phases_with_traps = np.array([
  *         i for i, frac in enumerate(ccd.fraction_of_traps_per_phase) if frac > 0             # <<<<<<<<<<<<<<
@@ -3697,7 +3697,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
     __pyx_L11_exit_scope:;
   } /* exit inner scope */
 
-  /* "arcticpy/main_utils.pyx":134
+  /* "emccd_detect/arcticpy/main_utils.pyx":134
  *     # Decide in advance which steps need to be evaluated and which can be skipped
  *     cdef np.int64_t i
  *     cdef np.int64_t[::1] phases_with_traps = np.array([             # <<<<<<<<<<<<<<
@@ -3711,7 +3711,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "arcticpy/main_utils.pyx":136
+  /* "emccd_detect/arcticpy/main_utils.pyx":136
  *     cdef np.int64_t[::1] phases_with_traps = np.array([
  *         i for i, frac in enumerate(ccd.fraction_of_traps_per_phase) if frac > 0
  *     ], dtype=np.int64)             # <<<<<<<<<<<<<<
@@ -3729,7 +3729,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_dtype, __pyx_t_12) < 0) __PYX_ERR(0, 136, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
 
-  /* "arcticpy/main_utils.pyx":134
+  /* "emccd_detect/arcticpy/main_utils.pyx":134
  *     # Decide in advance which steps need to be evaluated and which can be skipped
  *     cdef np.int64_t i
  *     cdef np.int64_t[::1] phases_with_traps = np.array([             # <<<<<<<<<<<<<<
@@ -3748,7 +3748,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __pyx_t_13.memview = NULL;
   __pyx_t_13.data = NULL;
 
-  /* "arcticpy/main_utils.pyx":137
+  /* "emccd_detect/arcticpy/main_utils.pyx":137
  *         i for i, frac in enumerate(ccd.fraction_of_traps_per_phase) if frac > 0
  *     ], dtype=np.int64)
  *     cdef np.int64_t[::1] steps_with_nonzero_dwell_time = np.array([             # <<<<<<<<<<<<<<
@@ -3766,7 +3766,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
     __Pyx_GOTREF(__pyx_t_12);
     __pyx_t_8 = 0;
 
-    /* "arcticpy/main_utils.pyx":138
+    /* "emccd_detect/arcticpy/main_utils.pyx":138
  *     ], dtype=np.int64)
  *     cdef np.int64_t[::1] steps_with_nonzero_dwell_time = np.array([
  *         i for i, time in enumerate(roe.dwell_times) if time > 0             # <<<<<<<<<<<<<<
@@ -3839,7 +3839,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
     __pyx_L18_exit_scope:;
   } /* exit inner scope */
 
-  /* "arcticpy/main_utils.pyx":137
+  /* "emccd_detect/arcticpy/main_utils.pyx":137
  *         i for i, frac in enumerate(ccd.fraction_of_traps_per_phase) if frac > 0
  *     ], dtype=np.int64)
  *     cdef np.int64_t[::1] steps_with_nonzero_dwell_time = np.array([             # <<<<<<<<<<<<<<
@@ -3853,7 +3853,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_12);
   __pyx_t_12 = 0;
 
-  /* "arcticpy/main_utils.pyx":139
+  /* "emccd_detect/arcticpy/main_utils.pyx":139
  *     cdef np.int64_t[::1] steps_with_nonzero_dwell_time = np.array([
  *         i for i, time in enumerate(roe.dwell_times) if time > 0
  *     ], dtype=np.int64)             # <<<<<<<<<<<<<<
@@ -3871,7 +3871,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   if (PyDict_SetItem(__pyx_t_12, __pyx_n_s_dtype, __pyx_t_3) < 0) __PYX_ERR(0, 139, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "arcticpy/main_utils.pyx":137
+  /* "emccd_detect/arcticpy/main_utils.pyx":137
  *         i for i, frac in enumerate(ccd.fraction_of_traps_per_phase) if frac > 0
  *     ], dtype=np.int64)
  *     cdef np.int64_t[::1] steps_with_nonzero_dwell_time = np.array([             # <<<<<<<<<<<<<<
@@ -3890,7 +3890,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __pyx_t_13.memview = NULL;
   __pyx_t_13.data = NULL;
 
-  /* "arcticpy/main_utils.pyx":144
+  /* "emccd_detect/arcticpy/main_utils.pyx":144
  *     cdef np.float64_t n_electrons_released_and_captured, express_mulitplier, n_free_electrons
  *     cdef np.int64_t[::1] row_indices, row_indices_write
  *     cdef np.int64_t n_express_pass = express_matrix.shape[0]             # <<<<<<<<<<<<<<
@@ -3900,7 +3900,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __Pyx_TraceLine(144,0,__PYX_ERR(0, 144, __pyx_L1_error))
   __pyx_v_n_express_pass = (__pyx_v_express_matrix.shape[0]);
 
-  /* "arcticpy/main_utils.pyx":145
+  /* "emccd_detect/arcticpy/main_utils.pyx":145
  *     cdef np.int64_t[::1] row_indices, row_indices_write
  *     cdef np.int64_t n_express_pass = express_matrix.shape[0]
  *     cdef np.int64_t n_rows_to_process = express_matrix.shape[1]             # <<<<<<<<<<<<<<
@@ -3910,7 +3910,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __Pyx_TraceLine(145,0,__PYX_ERR(0, 145, __pyx_L1_error))
   __pyx_v_n_rows_to_process = (__pyx_v_express_matrix.shape[1]);
 
-  /* "arcticpy/main_utils.pyx":151
+  /* "emccd_detect/arcticpy/main_utils.pyx":151
  * 
  *     # Set up the set of trap managers to monitor the occupancy of all trap species
  *     if isinstance(roe, ROETrapPumping):             # <<<<<<<<<<<<<<
@@ -3925,7 +3925,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __pyx_t_14 = (__pyx_t_11 != 0);
   if (__pyx_t_14) {
 
-    /* "arcticpy/main_utils.pyx":156
+    /* "emccd_detect/arcticpy/main_utils.pyx":156
  *         # Note, this allows for many more watermarks than are actually needed
  *         # in standard trap-pumping clock sequences
  *         max_n_transfers = n_express_pass * steps_with_nonzero_dwell_time.shape[0]             # <<<<<<<<<<<<<<
@@ -3935,7 +3935,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
     __Pyx_TraceLine(156,0,__PYX_ERR(0, 156, __pyx_L1_error))
     __pyx_v_max_n_transfers = (__pyx_v_n_express_pass * (__pyx_v_steps_with_nonzero_dwell_time.shape[0]));
 
-    /* "arcticpy/main_utils.pyx":151
+    /* "emccd_detect/arcticpy/main_utils.pyx":151
  * 
  *     # Set up the set of trap managers to monitor the occupancy of all trap species
  *     if isinstance(roe, ROETrapPumping):             # <<<<<<<<<<<<<<
@@ -3945,7 +3945,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
     goto __pyx_L19;
   }
 
-  /* "arcticpy/main_utils.pyx":158
+  /* "emccd_detect/arcticpy/main_utils.pyx":158
  *         max_n_transfers = n_express_pass * steps_with_nonzero_dwell_time.shape[0]
  *     else:
  *         max_n_transfers = n_rows_to_process * steps_with_nonzero_dwell_time.shape[0]             # <<<<<<<<<<<<<<
@@ -3958,7 +3958,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   }
   __pyx_L19:;
 
-  /* "arcticpy/main_utils.pyx":160
+  /* "emccd_detect/arcticpy/main_utils.pyx":160
  *         max_n_transfers = n_rows_to_process * steps_with_nonzero_dwell_time.shape[0]
  * 
  *     trap_managers = AllTrapManager(             # <<<<<<<<<<<<<<
@@ -3969,7 +3969,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_AllTrapManager); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 160, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
 
-  /* "arcticpy/main_utils.pyx":161
+  /* "emccd_detect/arcticpy/main_utils.pyx":161
  * 
  *     trap_managers = AllTrapManager(
  *         traps=traps, max_n_transfers=max_n_transfers, ccd=ccd             # <<<<<<<<<<<<<<
@@ -3986,7 +3986,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (PyDict_SetItem(__pyx_t_12, __pyx_n_s_ccd, __pyx_v_ccd) < 0) __PYX_ERR(0, 161, __pyx_L1_error)
 
-  /* "arcticpy/main_utils.pyx":160
+  /* "emccd_detect/arcticpy/main_utils.pyx":160
  *         max_n_transfers = n_rows_to_process * steps_with_nonzero_dwell_time.shape[0]
  * 
  *     trap_managers = AllTrapManager(             # <<<<<<<<<<<<<<
@@ -4001,7 +4001,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __pyx_v_trap_managers = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "arcticpy/main_utils.pyx":166
+  /* "emccd_detect/arcticpy/main_utils.pyx":166
  *     # Temporarily expand image, if charge released from traps ever migrates to
  *     # a different charge packet, at any time during the clocking sequence
  *     n_rows_zero_padding = max(roe.pixels_accessed_during_clocking) - min(             # <<<<<<<<<<<<<<
@@ -4015,7 +4015,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __Pyx_GOTREF(__pyx_t_12);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "arcticpy/main_utils.pyx":167
+  /* "emccd_detect/arcticpy/main_utils.pyx":167
  *     # a different charge packet, at any time during the clocking sequence
  *     n_rows_zero_padding = max(roe.pixels_accessed_during_clocking) - min(
  *         roe.pixels_accessed_during_clocking             # <<<<<<<<<<<<<<
@@ -4026,7 +4026,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_roe, __pyx_n_s_pixels_accessed_during_clocking); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 167, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
 
-  /* "arcticpy/main_utils.pyx":166
+  /* "emccd_detect/arcticpy/main_utils.pyx":166
  *     # Temporarily expand image, if charge released from traps ever migrates to
  *     # a different charge packet, at any time during the clocking sequence
  *     n_rows_zero_padding = max(roe.pixels_accessed_during_clocking) - min(             # <<<<<<<<<<<<<<
@@ -4044,7 +4044,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __pyx_v_n_rows_zero_padding = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "arcticpy/main_utils.pyx":169
+  /* "emccd_detect/arcticpy/main_utils.pyx":169
  *         roe.pixels_accessed_during_clocking
  *     )
  *     zero_padding = np.zeros((n_rows_zero_padding, image_in.shape[1]), dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -4092,7 +4092,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __pyx_v_zero_padding = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "arcticpy/main_utils.pyx":171
+  /* "emccd_detect/arcticpy/main_utils.pyx":171
  *     zero_padding = np.zeros((n_rows_zero_padding, image_in.shape[1]), dtype=np.float64)
  * 
  *     cdef np.float64_t[:, :] image = np.concatenate((image_in, zero_padding), axis=0)             # <<<<<<<<<<<<<<
@@ -4132,7 +4132,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
   __pyx_t_15.memview = NULL;
   __pyx_t_15.data = NULL;
 
-  /* "arcticpy/main_utils.pyx":174
+  /* "emccd_detect/arcticpy/main_utils.pyx":174
  * 
  *     # Read out one column of pixels through the (column of) traps
  *     for column_index in window_column_range:             # <<<<<<<<<<<<<<
@@ -4183,7 +4183,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_v_column_index = __pyx_t_8;
 
-    /* "arcticpy/main_utils.pyx":177
+    /* "emccd_detect/arcticpy/main_utils.pyx":177
  *         # Monitor the traps in every pixel, or just one (express=1) or a few
  *         # (express=a few) then replicate their effect
  *         for express_index in range(n_express_pass):             # <<<<<<<<<<<<<<
@@ -4196,7 +4196,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
     for (__pyx_t_17 = 0; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
       __pyx_v_express_index = __pyx_t_17;
 
-      /* "arcticpy/main_utils.pyx":180
+      /* "emccd_detect/arcticpy/main_utils.pyx":180
  *             # Restore the trap occupancy levels (to empty, or to a saved state
  *             # from a previous express pass)
  *             trap_managers.restore()             # <<<<<<<<<<<<<<
@@ -4223,7 +4223,7 @@ static PyObject *__pyx_pf_8arcticpy_10main_utils_cy_clock_charge_in_one_directio
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "arcticpy/main_utils.pyx":185
+      /* "emccd_detect/arcticpy/main_utils.pyx":185
  *             # traps and update their occupancies even if express_mulitplier is
  *             # 0, e.g. for a time window)
  *             row_indices = np.nonzero(monitor_traps_matrix[express_index])[0]             # <<<<<<<<<<<<<<
@@ -4280,7 +4280,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
       __pyx_t_13.memview = NULL;
       __pyx_t_13.data = NULL;
 
-      /* "arcticpy/main_utils.pyx":188
+      /* "emccd_detect/arcticpy/main_utils.pyx":188
  * 
  *             # Each pixel
  *             for i_row in range(row_indices.shape[0]):             # <<<<<<<<<<<<<<
@@ -4293,7 +4293,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
       for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_20; __pyx_t_21+=1) {
         __pyx_v_i_row = __pyx_t_21;
 
-        /* "arcticpy/main_utils.pyx":189
+        /* "emccd_detect/arcticpy/main_utils.pyx":189
  *             # Each pixel
  *             for i_row in range(row_indices.shape[0]):
  *                 row_index = row_indices[i_row]             # <<<<<<<<<<<<<<
@@ -4304,7 +4304,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
         __pyx_t_22 = __pyx_v_i_row;
         __pyx_v_row_index = (*((__pyx_t_5numpy_int64_t *) ( /* dim=0 */ ((char *) (((__pyx_t_5numpy_int64_t *) __pyx_v_row_indices.data) + __pyx_t_22)) )));
 
-        /* "arcticpy/main_utils.pyx":190
+        /* "emccd_detect/arcticpy/main_utils.pyx":190
  *             for i_row in range(row_indices.shape[0]):
  *                 row_index = row_indices[i_row]
  *                 express_multiplier = express_matrix[express_index, row_index]             # <<<<<<<<<<<<<<
@@ -4319,7 +4319,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
         __Pyx_XDECREF_SET(__pyx_v_express_multiplier, __pyx_t_1);
         __pyx_t_1 = 0;
 
-        /* "arcticpy/main_utils.pyx":192
+        /* "emccd_detect/arcticpy/main_utils.pyx":192
  *                 express_multiplier = express_matrix[express_index, row_index]
  * 
  *                 for i_clocking_step in range(steps_with_nonzero_dwell_time.shape[0]):             # <<<<<<<<<<<<<<
@@ -4332,7 +4332,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
         for (__pyx_t_23 = 0; __pyx_t_23 < __pyx_t_25; __pyx_t_23+=1) {
           __pyx_v_i_clocking_step = __pyx_t_23;
 
-          /* "arcticpy/main_utils.pyx":193
+          /* "emccd_detect/arcticpy/main_utils.pyx":193
  * 
  *                 for i_clocking_step in range(steps_with_nonzero_dwell_time.shape[0]):
  *                     clocking_step = steps_with_nonzero_dwell_time[i_clocking_step]             # <<<<<<<<<<<<<<
@@ -4343,7 +4343,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
           __pyx_t_22 = __pyx_v_i_clocking_step;
           __pyx_v_clocking_step = (*((__pyx_t_5numpy_int64_t *) ( /* dim=0 */ ((char *) (((__pyx_t_5numpy_int64_t *) __pyx_v_steps_with_nonzero_dwell_time.data) + __pyx_t_22)) )));
 
-          /* "arcticpy/main_utils.pyx":195
+          /* "emccd_detect/arcticpy/main_utils.pyx":195
  *                     clocking_step = steps_with_nonzero_dwell_time[i_clocking_step]
  * 
  *                     for i_phase in range(phases_with_traps.shape[0]):             # <<<<<<<<<<<<<<
@@ -4356,7 +4356,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
           for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_27; __pyx_t_22+=1) {
             __pyx_v_i_phase = __pyx_t_22;
 
-            /* "arcticpy/main_utils.pyx":196
+            /* "emccd_detect/arcticpy/main_utils.pyx":196
  * 
  *                     for i_phase in range(phases_with_traps.shape[0]):
  *                         phase = phases_with_traps[i_phase]             # <<<<<<<<<<<<<<
@@ -4367,7 +4367,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
             __pyx_t_28 = __pyx_v_i_phase;
             __pyx_v_phase = (*((__pyx_t_5numpy_int64_t *) ( /* dim=0 */ ((char *) (((__pyx_t_5numpy_int64_t *) __pyx_v_phases_with_traps.data) + __pyx_t_28)) )));
 
-            /* "arcticpy/main_utils.pyx":199
+            /* "emccd_detect/arcticpy/main_utils.pyx":199
  * 
  *                         # Information about the potentials in this phase
  *                         roe_phase = roe.clock_sequence[clocking_step][phase]             # <<<<<<<<<<<<<<
@@ -4386,7 +4386,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
             __Pyx_XDECREF_SET(__pyx_v_roe_phase, __pyx_t_1);
             __pyx_t_1 = 0;
 
-            /* "arcticpy/main_utils.pyx":203
+            /* "emccd_detect/arcticpy/main_utils.pyx":203
  *                         # Select the relevant pixel (and phase) for the initial charge
  *                         row_index_read = (
  *                             window_row_range[row_index] + roe_phase.capture_from_which_pixel             # <<<<<<<<<<<<<<
@@ -4406,7 +4406,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
             __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
             __pyx_v_row_index_read = __pyx_t_28;
 
-            /* "arcticpy/main_utils.pyx":208
+            /* "emccd_detect/arcticpy/main_utils.pyx":208
  *                         # Initial charge (0 if this phase's potential is not high)
  *                         n_free_electrons = (
  *                             image[row_index_read, column_index] * roe_phase.is_high             # <<<<<<<<<<<<<<
@@ -4428,7 +4428,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
             __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
             __pyx_v_n_free_electrons = __pyx_t_30;
 
-            /* "arcticpy/main_utils.pyx":212
+            /* "emccd_detect/arcticpy/main_utils.pyx":212
  * 
  *                         # Allow electrons to be released from and captured by traps
  *                         n_electrons_released_and_captured = 0             # <<<<<<<<<<<<<<
@@ -4438,7 +4438,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
             __Pyx_TraceLine(212,0,__PYX_ERR(0, 212, __pyx_L1_error))
             __pyx_v_n_electrons_released_and_captured = 0.0;
 
-            /* "arcticpy/main_utils.pyx":213
+            /* "emccd_detect/arcticpy/main_utils.pyx":213
  *                         # Allow electrons to be released from and captured by traps
  *                         n_electrons_released_and_captured = 0
  *                         for trap_manager in trap_managers[phase]:             # <<<<<<<<<<<<<<
@@ -4491,7 +4491,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
               __Pyx_XDECREF_SET(__pyx_v_trap_manager, __pyx_t_1);
               __pyx_t_1 = 0;
 
-              /* "arcticpy/main_utils.pyx":214
+              /* "emccd_detect/arcticpy/main_utils.pyx":214
  *                         n_electrons_released_and_captured = 0
  *                         for trap_manager in trap_managers[phase]:
  *                             n_electrons_released_and_captured += trap_manager.n_electrons_released_and_captured(             # <<<<<<<<<<<<<<
@@ -4504,7 +4504,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
               __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_v_trap_manager, __pyx_n_s_n_electrons_released_and_capture); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 214, __pyx_L1_error)
               __Pyx_GOTREF(__pyx_t_12);
 
-              /* "arcticpy/main_utils.pyx":215
+              /* "emccd_detect/arcticpy/main_utils.pyx":215
  *                         for trap_manager in trap_managers[phase]:
  *                             n_electrons_released_and_captured += trap_manager.n_electrons_released_and_captured(
  *                                 n_free_electrons=n_free_electrons,             # <<<<<<<<<<<<<<
@@ -4519,7 +4519,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
               if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_n_free_electrons, __pyx_t_33) < 0) __PYX_ERR(0, 215, __pyx_L1_error)
               __Pyx_DECREF(__pyx_t_33); __pyx_t_33 = 0;
 
-              /* "arcticpy/main_utils.pyx":216
+              /* "emccd_detect/arcticpy/main_utils.pyx":216
  *                             n_electrons_released_and_captured += trap_manager.n_electrons_released_and_captured(
  *                                 n_free_electrons=n_free_electrons,
  *                                 dwell_time=roe.dwell_times[clocking_step],             # <<<<<<<<<<<<<<
@@ -4535,7 +4535,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
               if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_dwell_time, __pyx_t_34) < 0) __PYX_ERR(0, 215, __pyx_L1_error)
               __Pyx_DECREF(__pyx_t_34); __pyx_t_34 = 0;
 
-              /* "arcticpy/main_utils.pyx":217
+              /* "emccd_detect/arcticpy/main_utils.pyx":217
  *                                 n_free_electrons=n_free_electrons,
  *                                 dwell_time=roe.dwell_times[clocking_step],
  *                                 ccd_filling_function=ccd.well_filling_function(             # <<<<<<<<<<<<<<
@@ -4546,7 +4546,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
               __pyx_t_34 = __Pyx_PyObject_GetAttrStr(__pyx_v_ccd, __pyx_n_s_well_filling_function); if (unlikely(!__pyx_t_34)) __PYX_ERR(0, 217, __pyx_L1_error)
               __Pyx_GOTREF(__pyx_t_34);
 
-              /* "arcticpy/main_utils.pyx":218
+              /* "emccd_detect/arcticpy/main_utils.pyx":218
  *                                 dwell_time=roe.dwell_times[clocking_step],
  *                                 ccd_filling_function=ccd.well_filling_function(
  *                                     phase=phase             # <<<<<<<<<<<<<<
@@ -4561,7 +4561,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
               if (PyDict_SetItem(__pyx_t_33, __pyx_n_s_phase, __pyx_t_35) < 0) __PYX_ERR(0, 218, __pyx_L1_error)
               __Pyx_DECREF(__pyx_t_35); __pyx_t_35 = 0;
 
-              /* "arcticpy/main_utils.pyx":217
+              /* "emccd_detect/arcticpy/main_utils.pyx":217
  *                                 n_free_electrons=n_free_electrons,
  *                                 dwell_time=roe.dwell_times[clocking_step],
  *                                 ccd_filling_function=ccd.well_filling_function(             # <<<<<<<<<<<<<<
@@ -4576,7 +4576,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
               if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_ccd_filling_function, __pyx_t_35) < 0) __PYX_ERR(0, 215, __pyx_L1_error)
               __Pyx_DECREF(__pyx_t_35); __pyx_t_35 = 0;
 
-              /* "arcticpy/main_utils.pyx":220
+              /* "emccd_detect/arcticpy/main_utils.pyx":220
  *                                     phase=phase
  *                                 ),
  *                                 express_multiplier=express_multiplier,             # <<<<<<<<<<<<<<
@@ -4586,7 +4586,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
               __Pyx_TraceLine(220,0,__PYX_ERR(0, 220, __pyx_L1_error))
               if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_express_multiplier, __pyx_v_express_multiplier) < 0) __PYX_ERR(0, 215, __pyx_L1_error)
 
-              /* "arcticpy/main_utils.pyx":214
+              /* "emccd_detect/arcticpy/main_utils.pyx":214
  *                         n_electrons_released_and_captured = 0
  *                         for trap_manager in trap_managers[phase]:
  *                             n_electrons_released_and_captured += trap_manager.n_electrons_released_and_captured(             # <<<<<<<<<<<<<<
@@ -4606,7 +4606,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
               __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
               __pyx_v_n_electrons_released_and_captured = __pyx_t_30;
 
-              /* "arcticpy/main_utils.pyx":213
+              /* "emccd_detect/arcticpy/main_utils.pyx":213
  *                         # Allow electrons to be released from and captured by traps
  *                         n_electrons_released_and_captured = 0
  *                         for trap_manager in trap_managers[phase]:             # <<<<<<<<<<<<<<
@@ -4617,7 +4617,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
             }
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-            /* "arcticpy/main_utils.pyx":224
+            /* "emccd_detect/arcticpy/main_utils.pyx":224
  * 
  *                         # Skip updating the image if only monitoring the traps
  *                         if express_multiplier == 0:             # <<<<<<<<<<<<<<
@@ -4631,7 +4631,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
             __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
             if (__pyx_t_14) {
 
-              /* "arcticpy/main_utils.pyx":225
+              /* "emccd_detect/arcticpy/main_utils.pyx":225
  *                         # Skip updating the image if only monitoring the traps
  *                         if express_multiplier == 0:
  *                             continue             # <<<<<<<<<<<<<<
@@ -4641,7 +4641,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
               __Pyx_TraceLine(225,0,__PYX_ERR(0, 225, __pyx_L1_error))
               goto __pyx_L28_continue;
 
-              /* "arcticpy/main_utils.pyx":224
+              /* "emccd_detect/arcticpy/main_utils.pyx":224
  * 
  *                         # Skip updating the image if only monitoring the traps
  *                         if express_multiplier == 0:             # <<<<<<<<<<<<<<
@@ -4650,7 +4650,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
  */
             }
 
-            /* "arcticpy/main_utils.pyx":229
+            /* "emccd_detect/arcticpy/main_utils.pyx":229
  *                         # Select the relevant pixel (and phase(s)) for the returned charge
  *                         row_indices_write = (
  *                             window_row_range[row_index]             # <<<<<<<<<<<<<<
@@ -4661,7 +4661,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
             __pyx_t_4 = __Pyx_GetItemInt(__pyx_v_window_row_range, __pyx_v_row_index, __pyx_t_5numpy_int64_t, 1, __Pyx_PyInt_From_npy_int64, 0, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 229, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_4);
 
-            /* "arcticpy/main_utils.pyx":230
+            /* "emccd_detect/arcticpy/main_utils.pyx":230
  *                         row_indices_write = (
  *                             window_row_range[row_index]
  *                             + roe_phase.release_to_which_pixels             # <<<<<<<<<<<<<<
@@ -4682,7 +4682,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
             __pyx_t_13.memview = NULL;
             __pyx_t_13.data = NULL;
 
-            /* "arcticpy/main_utils.pyx":236
+            /* "emccd_detect/arcticpy/main_utils.pyx":236
  *                         # cloud, or a fraction if they are being returned to
  *                         # multiple phases
  *                         for i in range(row_indices_write.shape[0]):             # <<<<<<<<<<<<<<
@@ -4695,7 +4695,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
             for (__pyx_t_29 = 0; __pyx_t_29 < __pyx_t_36; __pyx_t_29+=1) {
               __pyx_v_i = __pyx_t_29;
 
-              /* "arcticpy/main_utils.pyx":237
+              /* "emccd_detect/arcticpy/main_utils.pyx":237
  *                         # multiple phases
  *                         for i in range(row_indices_write.shape[0]):
  *                             row_index_write = row_indices_write[i]             # <<<<<<<<<<<<<<
@@ -4706,7 +4706,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
               __pyx_t_28 = __pyx_v_i;
               __pyx_v_row_index_write = (*((__pyx_t_5numpy_int64_t *) ( /* dim=0 */ ((char *) (((__pyx_t_5numpy_int64_t *) __pyx_v_row_indices_write.data) + __pyx_t_28)) )));
 
-              /* "arcticpy/main_utils.pyx":239
+              /* "emccd_detect/arcticpy/main_utils.pyx":239
  *                             row_index_write = row_indices_write[i]
  *                             image[row_index_write, column_index] += (
  *                                 n_electrons_released_and_captured             # <<<<<<<<<<<<<<
@@ -4717,7 +4717,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
               __pyx_t_35 = PyFloat_FromDouble(__pyx_v_n_electrons_released_and_captured); if (unlikely(!__pyx_t_35)) __PYX_ERR(0, 239, __pyx_L1_error)
               __Pyx_GOTREF(__pyx_t_35);
 
-              /* "arcticpy/main_utils.pyx":240
+              /* "emccd_detect/arcticpy/main_utils.pyx":240
  *                             image[row_index_write, column_index] += (
  *                                 n_electrons_released_and_captured
  *                                 * roe_phase.release_fraction_to_pixel[i]             # <<<<<<<<<<<<<<
@@ -4735,7 +4735,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
               __Pyx_DECREF(__pyx_t_35); __pyx_t_35 = 0;
               __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-              /* "arcticpy/main_utils.pyx":241
+              /* "emccd_detect/arcticpy/main_utils.pyx":241
  *                                 n_electrons_released_and_captured
  *                                 * roe_phase.release_fraction_to_pixel[i]
  *                                 * express_multiplier             # <<<<<<<<<<<<<<
@@ -4749,7 +4749,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
               __pyx_t_30 = __pyx_PyFloat_AsDouble(__pyx_t_4); if (unlikely((__pyx_t_30 == ((npy_float64)-1)) && PyErr_Occurred())) __PYX_ERR(0, 241, __pyx_L1_error)
               __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-              /* "arcticpy/main_utils.pyx":238
+              /* "emccd_detect/arcticpy/main_utils.pyx":238
  *                         for i in range(row_indices_write.shape[0]):
  *                             row_index_write = row_indices_write[i]
  *                             image[row_index_write, column_index] += (             # <<<<<<<<<<<<<<
@@ -4761,7 +4761,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
               __pyx_t_37 = __pyx_v_column_index;
               *((__pyx_t_5numpy_float64_t *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_image.data + __pyx_t_28 * __pyx_v_image.strides[0]) ) + __pyx_t_37 * __pyx_v_image.strides[1]) )) += __pyx_t_30;
 
-              /* "arcticpy/main_utils.pyx":246
+              /* "emccd_detect/arcticpy/main_utils.pyx":246
  *                             # Make sure image counts don't go negative, as could
  *                             # otherwise happen with a large express_multiplier
  *                             if image[row_index_write, column_index] < 0:             # <<<<<<<<<<<<<<
@@ -4774,7 +4774,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
               __pyx_t_14 = (((*((__pyx_t_5numpy_float64_t *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_image.data + __pyx_t_37 * __pyx_v_image.strides[0]) ) + __pyx_t_28 * __pyx_v_image.strides[1]) ))) < 0.0) != 0);
               if (__pyx_t_14) {
 
-                /* "arcticpy/main_utils.pyx":247
+                /* "emccd_detect/arcticpy/main_utils.pyx":247
  *                             # otherwise happen with a large express_multiplier
  *                             if image[row_index_write, column_index] < 0:
  *                                 image[row_index_write, column_index] = 0             # <<<<<<<<<<<<<<
@@ -4786,7 +4786,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
                 __pyx_t_37 = __pyx_v_column_index;
                 *((__pyx_t_5numpy_float64_t *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_image.data + __pyx_t_28 * __pyx_v_image.strides[0]) ) + __pyx_t_37 * __pyx_v_image.strides[1]) )) = 0.0;
 
-                /* "arcticpy/main_utils.pyx":246
+                /* "emccd_detect/arcticpy/main_utils.pyx":246
  *                             # Make sure image counts don't go negative, as could
  *                             # otherwise happen with a large express_multiplier
  *                             if image[row_index_write, column_index] < 0:             # <<<<<<<<<<<<<<
@@ -4799,7 +4799,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
           }
         }
 
-        /* "arcticpy/main_utils.pyx":250
+        /* "emccd_detect/arcticpy/main_utils.pyx":250
  * 
  *                 # Save the trap occupancy states for the next express pass
  *                 if save_trap_states_matrix[express_index, row_index]:             # <<<<<<<<<<<<<<
@@ -4826,7 +4826,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         if (__pyx_t_14) {
 
-          /* "arcticpy/main_utils.pyx":251
+          /* "emccd_detect/arcticpy/main_utils.pyx":251
  *                 # Save the trap occupancy states for the next express pass
  *                 if save_trap_states_matrix[express_index, row_index]:
  *                     trap_managers.save()             # <<<<<<<<<<<<<<
@@ -4853,7 +4853,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
           __Pyx_DECREF(__pyx_t_35); __pyx_t_35 = 0;
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-          /* "arcticpy/main_utils.pyx":250
+          /* "emccd_detect/arcticpy/main_utils.pyx":250
  * 
  *                 # Save the trap occupancy states for the next express pass
  *                 if save_trap_states_matrix[express_index, row_index]:             # <<<<<<<<<<<<<<
@@ -4864,7 +4864,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
       }
     }
 
-    /* "arcticpy/main_utils.pyx":255
+    /* "emccd_detect/arcticpy/main_utils.pyx":255
  *         # Reset the watermarks for the next column, effectively setting the trap
  *         # occupancies to zero
  *         if roe.empty_traps_between_columns:             # <<<<<<<<<<<<<<
@@ -4878,7 +4878,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (__pyx_t_14) {
 
-      /* "arcticpy/main_utils.pyx":256
+      /* "emccd_detect/arcticpy/main_utils.pyx":256
  *         # occupancies to zero
  *         if roe.empty_traps_between_columns:
  *             trap_managers.empty_all_traps()             # <<<<<<<<<<<<<<
@@ -4905,7 +4905,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
       __Pyx_DECREF(__pyx_t_35); __pyx_t_35 = 0;
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "arcticpy/main_utils.pyx":255
+      /* "emccd_detect/arcticpy/main_utils.pyx":255
  *         # Reset the watermarks for the next column, effectively setting the trap
  *         # occupancies to zero
  *         if roe.empty_traps_between_columns:             # <<<<<<<<<<<<<<
@@ -4914,7 +4914,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
  */
     }
 
-    /* "arcticpy/main_utils.pyx":257
+    /* "emccd_detect/arcticpy/main_utils.pyx":257
  *         if roe.empty_traps_between_columns:
  *             trap_managers.empty_all_traps()
  *         trap_managers.save()             # <<<<<<<<<<<<<<
@@ -4941,7 +4941,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
     __Pyx_DECREF(__pyx_t_35); __pyx_t_35 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "arcticpy/main_utils.pyx":174
+    /* "emccd_detect/arcticpy/main_utils.pyx":174
  * 
  *     # Read out one column of pixels through the (column of) traps
  *     for column_index in window_column_range:             # <<<<<<<<<<<<<<
@@ -4952,7 +4952,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "arcticpy/main_utils.pyx":260
+  /* "emccd_detect/arcticpy/main_utils.pyx":260
  * 
  *     # Unexpand the image to its original dimensions
  *     image_out = np.asarray(image)             # <<<<<<<<<<<<<<
@@ -4986,7 +4986,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
   __pyx_v_image_out = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "arcticpy/main_utils.pyx":261
+  /* "emccd_detect/arcticpy/main_utils.pyx":261
  *     # Unexpand the image to its original dimensions
  *     image_out = np.asarray(image)
  *     if n_rows_zero_padding > 0:             # <<<<<<<<<<<<<<
@@ -4999,7 +4999,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_14) {
 
-    /* "arcticpy/main_utils.pyx":262
+    /* "emccd_detect/arcticpy/main_utils.pyx":262
  *     image_out = np.asarray(image)
  *     if n_rows_zero_padding > 0:
  *         image_out = image_out[0:-n_rows_zero_padding, :]             # <<<<<<<<<<<<<<
@@ -5026,7 +5026,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
     __Pyx_DECREF_SET(__pyx_v_image_out, __pyx_t_35);
     __pyx_t_35 = 0;
 
-    /* "arcticpy/main_utils.pyx":261
+    /* "emccd_detect/arcticpy/main_utils.pyx":261
  *     # Unexpand the image to its original dimensions
  *     image_out = np.asarray(image)
  *     if n_rows_zero_padding > 0:             # <<<<<<<<<<<<<<
@@ -5035,7 +5035,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
  */
   }
 
-  /* "arcticpy/main_utils.pyx":264
+  /* "emccd_detect/arcticpy/main_utils.pyx":264
  *         image_out = image_out[0:-n_rows_zero_padding, :]
  * 
  *     return image_out             # <<<<<<<<<<<<<<
@@ -5047,7 +5047,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
   __pyx_r = __pyx_v_image_out;
   goto __pyx_L0;
 
-  /* "arcticpy/main_utils.pyx":14
+  /* "emccd_detect/arcticpy/main_utils.pyx":14
  * @cython.nonecheck(False)
  * @cython.wraparound(False)
  * def cy_clock_charge_in_one_direction(             # <<<<<<<<<<<<<<
@@ -5070,7 +5070,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
   __Pyx_XDECREF(__pyx_t_33);
   __Pyx_XDECREF(__pyx_t_34);
   __Pyx_XDECREF(__pyx_t_35);
-  __Pyx_AddTraceback("arcticpy.main_utils.cy_clock_charge_in_one_direction", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("emccd_detect.arcticpy.main_utils.cy_clock_charge_in_one_direction", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __PYX_XDEC_MEMVIEW(&__pyx_v_express_matrix, 1);
@@ -5096,7 +5096,7 @@ __pyx_t_12 = __pyx_memoryview_fromslice(__pyx_t_18, 1, (PyObject *(*)(char *)) _
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":734
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":735
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -5113,24 +5113,24 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
-  __Pyx_TraceCall("PyArray_MultiIterNew1", __pyx_f[1], 734, 0, __PYX_ERR(1, 734, __pyx_L1_error));
+  __Pyx_TraceCall("PyArray_MultiIterNew1", __pyx_f[1], 735, 0, __PYX_ERR(1, 735, __pyx_L1_error));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":735
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":736
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  */
-  __Pyx_TraceLine(735,0,__PYX_ERR(1, 735, __pyx_L1_error))
+  __Pyx_TraceLine(736,0,__PYX_ERR(1, 736, __pyx_L1_error))
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(1, ((void *)__pyx_v_a)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 735, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(1, ((void *)__pyx_v_a)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 736, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":734
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":735
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -5150,7 +5150,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":737
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":738
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -5167,24 +5167,24 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
-  __Pyx_TraceCall("PyArray_MultiIterNew2", __pyx_f[1], 737, 0, __PYX_ERR(1, 737, __pyx_L1_error));
+  __Pyx_TraceCall("PyArray_MultiIterNew2", __pyx_f[1], 738, 0, __PYX_ERR(1, 738, __pyx_L1_error));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":738
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":739
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  */
-  __Pyx_TraceLine(738,0,__PYX_ERR(1, 738, __pyx_L1_error))
+  __Pyx_TraceLine(739,0,__PYX_ERR(1, 739, __pyx_L1_error))
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(2, ((void *)__pyx_v_a), ((void *)__pyx_v_b)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 738, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(2, ((void *)__pyx_v_a), ((void *)__pyx_v_b)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 739, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":737
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":738
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -5204,7 +5204,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":740
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":741
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -5221,24 +5221,24 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
-  __Pyx_TraceCall("PyArray_MultiIterNew3", __pyx_f[1], 740, 0, __PYX_ERR(1, 740, __pyx_L1_error));
+  __Pyx_TraceCall("PyArray_MultiIterNew3", __pyx_f[1], 741, 0, __PYX_ERR(1, 741, __pyx_L1_error));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":741
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":742
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  */
-  __Pyx_TraceLine(741,0,__PYX_ERR(1, 741, __pyx_L1_error))
+  __Pyx_TraceLine(742,0,__PYX_ERR(1, 742, __pyx_L1_error))
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(3, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 741, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(3, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 742, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":740
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":741
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -5258,7 +5258,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":743
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":744
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -5275,24 +5275,24 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
-  __Pyx_TraceCall("PyArray_MultiIterNew4", __pyx_f[1], 743, 0, __PYX_ERR(1, 743, __pyx_L1_error));
+  __Pyx_TraceCall("PyArray_MultiIterNew4", __pyx_f[1], 744, 0, __PYX_ERR(1, 744, __pyx_L1_error));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":744
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":745
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  */
-  __Pyx_TraceLine(744,0,__PYX_ERR(1, 744, __pyx_L1_error))
+  __Pyx_TraceLine(745,0,__PYX_ERR(1, 745, __pyx_L1_error))
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(4, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 744, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(4, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 745, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":743
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":744
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -5312,7 +5312,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":746
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":747
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -5329,24 +5329,24 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
-  __Pyx_TraceCall("PyArray_MultiIterNew5", __pyx_f[1], 746, 0, __PYX_ERR(1, 746, __pyx_L1_error));
+  __Pyx_TraceCall("PyArray_MultiIterNew5", __pyx_f[1], 747, 0, __PYX_ERR(1, 747, __pyx_L1_error));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":747
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":748
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  */
-  __Pyx_TraceLine(747,0,__PYX_ERR(1, 747, __pyx_L1_error))
+  __Pyx_TraceLine(748,0,__PYX_ERR(1, 748, __pyx_L1_error))
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyArray_MultiIterNew(5, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d), ((void *)__pyx_v_e)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 747, __pyx_L1_error)
+  __pyx_t_1 = PyArray_MultiIterNew(5, ((void *)__pyx_v_a), ((void *)__pyx_v_b), ((void *)__pyx_v_c), ((void *)__pyx_v_d), ((void *)__pyx_v_e)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 748, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":746
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":747
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -5366,7 +5366,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":749
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":750
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -5383,33 +5383,33 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
-  __Pyx_TraceCall("PyDataType_SHAPE", __pyx_f[1], 749, 0, __PYX_ERR(1, 749, __pyx_L1_error));
+  __Pyx_TraceCall("PyDataType_SHAPE", __pyx_f[1], 750, 0, __PYX_ERR(1, 750, __pyx_L1_error));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":750
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":751
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
  *         return <tuple>d.subarray.shape
  *     else:
  */
-  __Pyx_TraceLine(750,0,__PYX_ERR(1, 750, __pyx_L1_error))
+  __Pyx_TraceLine(751,0,__PYX_ERR(1, 751, __pyx_L1_error))
   __pyx_t_1 = (PyDataType_HASSUBARRAY(__pyx_v_d) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":751
+    /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":752
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
  *     else:
  *         return ()
  */
-    __Pyx_TraceLine(751,0,__PYX_ERR(1, 751, __pyx_L1_error))
+    __Pyx_TraceLine(752,0,__PYX_ERR(1, 752, __pyx_L1_error))
     __Pyx_XDECREF(__pyx_r);
     __Pyx_INCREF(((PyObject*)__pyx_v_d->subarray->shape));
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":750
+    /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":751
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -5418,14 +5418,14 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":753
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":754
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __Pyx_TraceLine(753,0,__PYX_ERR(1, 753, __pyx_L1_error))
+  __Pyx_TraceLine(754,0,__PYX_ERR(1, 754, __pyx_L1_error))
   /*else*/ {
     __Pyx_XDECREF(__pyx_r);
     __Pyx_INCREF(__pyx_empty_tuple);
@@ -5433,7 +5433,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":749
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":750
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -5452,7 +5452,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":928
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":929
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -5467,29 +5467,29 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("set_array_base", 0);
-  __Pyx_TraceCall("set_array_base", __pyx_f[1], 928, 0, __PYX_ERR(1, 928, __pyx_L1_error));
+  __Pyx_TraceCall("set_array_base", __pyx_f[1], 929, 0, __PYX_ERR(1, 929, __pyx_L1_error));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":929
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":930
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
  *     PyArray_SetBaseObject(arr, base)
  * 
  */
-  __Pyx_TraceLine(929,0,__PYX_ERR(1, 929, __pyx_L1_error))
+  __Pyx_TraceLine(930,0,__PYX_ERR(1, 930, __pyx_L1_error))
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":930
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":931
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
  * 
  * cdef inline object get_array_base(ndarray arr):
  */
-  __Pyx_TraceLine(930,0,__PYX_ERR(1, 930, __pyx_L1_error))
+  __Pyx_TraceLine(931,0,__PYX_ERR(1, 931, __pyx_L1_error))
   (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":928
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":929
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -5506,7 +5506,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":932
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":933
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -5524,42 +5524,42 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_array_base", 0);
-  __Pyx_TraceCall("get_array_base", __pyx_f[1], 932, 0, __PYX_ERR(1, 932, __pyx_L1_error));
+  __Pyx_TraceCall("get_array_base", __pyx_f[1], 933, 0, __PYX_ERR(1, 933, __pyx_L1_error));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":933
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":934
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
  *     if base is NULL:
  *         return None
  */
-  __Pyx_TraceLine(933,0,__PYX_ERR(1, 933, __pyx_L1_error))
+  __Pyx_TraceLine(934,0,__PYX_ERR(1, 934, __pyx_L1_error))
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":934
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":935
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
  *         return None
  *     return <object>base
  */
-  __Pyx_TraceLine(934,0,__PYX_ERR(1, 934, __pyx_L1_error))
+  __Pyx_TraceLine(935,0,__PYX_ERR(1, 935, __pyx_L1_error))
   __pyx_t_1 = ((__pyx_v_base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":935
+    /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":936
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
  *     return <object>base
  * 
  */
-    __Pyx_TraceLine(935,0,__PYX_ERR(1, 935, __pyx_L1_error))
+    __Pyx_TraceLine(936,0,__PYX_ERR(1, 936, __pyx_L1_error))
     __Pyx_XDECREF(__pyx_r);
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":934
+    /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":935
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -5568,20 +5568,20 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":936
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":937
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
  * 
  * # Versions of the import_* functions which are more suitable for
  */
-  __Pyx_TraceLine(936,0,__PYX_ERR(1, 936, __pyx_L1_error))
+  __Pyx_TraceLine(937,0,__PYX_ERR(1, 937, __pyx_L1_error))
   __Pyx_XDECREF(__pyx_r);
   __Pyx_INCREF(((PyObject *)__pyx_v_base));
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":932
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":933
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -5600,7 +5600,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":940
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":941
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -5624,16 +5624,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 0);
-  __Pyx_TraceCall("import_array", __pyx_f[1], 940, 0, __PYX_ERR(1, 940, __pyx_L1_error));
+  __Pyx_TraceCall("import_array", __pyx_f[1], 941, 0, __PYX_ERR(1, 941, __pyx_L1_error));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":941
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":942
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
  *         __pyx_import_array()
  *     except Exception:
  */
-  __Pyx_TraceLine(941,0,__PYX_ERR(1, 941, __pyx_L1_error))
+  __Pyx_TraceLine(942,0,__PYX_ERR(1, 942, __pyx_L1_error))
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -5643,17 +5643,17 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":942
+      /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":943
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")
  */
-      __Pyx_TraceLine(942,0,__PYX_ERR(1, 942, __pyx_L3_error))
-      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 942, __pyx_L3_error)
+      __Pyx_TraceLine(943,0,__PYX_ERR(1, 943, __pyx_L3_error))
+      __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 943, __pyx_L3_error)
 
-      /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":941
+      /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":942
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -5667,40 +5667,40 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":943
+    /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":944
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  */
-    __Pyx_TraceLine(943,0,__PYX_ERR(1, 943, __pyx_L5_except_error))
+    __Pyx_TraceLine(944,0,__PYX_ERR(1, 944, __pyx_L5_except_error))
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_array", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(1, 943, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(1, 944, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":944
+      /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":945
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-      __Pyx_TraceLine(944,0,__PYX_ERR(1, 944, __pyx_L5_except_error))
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 944, __pyx_L5_except_error)
+      __Pyx_TraceLine(945,0,__PYX_ERR(1, 945, __pyx_L5_except_error))
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 945, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(1, 944, __pyx_L5_except_error)
+      __PYX_ERR(1, 945, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":941
+    /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":942
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -5715,7 +5715,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":940
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":941
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -5739,7 +5739,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":946
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":947
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -5763,16 +5763,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 0);
-  __Pyx_TraceCall("import_umath", __pyx_f[1], 946, 0, __PYX_ERR(1, 946, __pyx_L1_error));
+  __Pyx_TraceCall("import_umath", __pyx_f[1], 947, 0, __PYX_ERR(1, 947, __pyx_L1_error));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":947
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":948
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
  *         _import_umath()
  *     except Exception:
  */
-  __Pyx_TraceLine(947,0,__PYX_ERR(1, 947, __pyx_L1_error))
+  __Pyx_TraceLine(948,0,__PYX_ERR(1, 948, __pyx_L1_error))
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -5782,17 +5782,17 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":948
+      /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":949
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __Pyx_TraceLine(948,0,__PYX_ERR(1, 948, __pyx_L3_error))
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 948, __pyx_L3_error)
+      __Pyx_TraceLine(949,0,__PYX_ERR(1, 949, __pyx_L3_error))
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 949, __pyx_L3_error)
 
-      /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":947
+      /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":948
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -5806,40 +5806,40 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":949
+    /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":950
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  */
-    __Pyx_TraceLine(949,0,__PYX_ERR(1, 949, __pyx_L5_except_error))
+    __Pyx_TraceLine(950,0,__PYX_ERR(1, 950, __pyx_L5_except_error))
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_umath", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(1, 949, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(1, 950, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":950
+      /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":951
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-      __Pyx_TraceLine(950,0,__PYX_ERR(1, 950, __pyx_L5_except_error))
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 950, __pyx_L5_except_error)
+      __Pyx_TraceLine(951,0,__PYX_ERR(1, 951, __pyx_L5_except_error))
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 951, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(1, 950, __pyx_L5_except_error)
+      __PYX_ERR(1, 951, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":947
+    /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":948
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -5854,7 +5854,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":946
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":947
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -5878,7 +5878,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":952
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":953
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -5902,16 +5902,16 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
-  __Pyx_TraceCall("import_ufunc", __pyx_f[1], 952, 0, __PYX_ERR(1, 952, __pyx_L1_error));
+  __Pyx_TraceCall("import_ufunc", __pyx_f[1], 953, 0, __PYX_ERR(1, 953, __pyx_L1_error));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":953
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":954
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
  *         _import_umath()
  *     except Exception:
  */
-  __Pyx_TraceLine(953,0,__PYX_ERR(1, 953, __pyx_L1_error))
+  __Pyx_TraceLine(954,0,__PYX_ERR(1, 954, __pyx_L1_error))
   {
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -5921,17 +5921,17 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":954
+      /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":955
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")
  */
-      __Pyx_TraceLine(954,0,__PYX_ERR(1, 954, __pyx_L3_error))
-      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 954, __pyx_L3_error)
+      __Pyx_TraceLine(955,0,__PYX_ERR(1, 955, __pyx_L3_error))
+      __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 955, __pyx_L3_error)
 
-      /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":953
+      /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":954
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -5945,40 +5945,40 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":955
+    /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":956
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  */
-    __Pyx_TraceLine(955,0,__PYX_ERR(1, 955, __pyx_L5_except_error))
+    __Pyx_TraceLine(956,0,__PYX_ERR(1, 956, __pyx_L5_except_error))
     __pyx_t_4 = __Pyx_PyErr_ExceptionMatches(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])));
     if (__pyx_t_4) {
       __Pyx_AddTraceback("numpy.import_ufunc", __pyx_clineno, __pyx_lineno, __pyx_filename);
-      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(1, 955, __pyx_L5_except_error)
+      if (__Pyx_GetException(&__pyx_t_5, &__pyx_t_6, &__pyx_t_7) < 0) __PYX_ERR(1, 956, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":956
+      /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":957
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef extern from *:
  */
-      __Pyx_TraceLine(956,0,__PYX_ERR(1, 956, __pyx_L5_except_error))
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 956, __pyx_L5_except_error)
+      __Pyx_TraceLine(957,0,__PYX_ERR(1, 957, __pyx_L5_except_error))
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 957, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __PYX_ERR(1, 956, __pyx_L5_except_error)
+      __PYX_ERR(1, 957, __pyx_L5_except_error)
     }
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":953
+    /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":954
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -5993,7 +5993,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":952
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":953
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -6017,7 +6017,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":966
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":967
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -6033,20 +6033,20 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("is_timedelta64_object", 0);
-  __Pyx_TraceCall("is_timedelta64_object", __pyx_f[1], 966, 0, __PYX_ERR(1, 966, __pyx_L1_error));
+  __Pyx_TraceCall("is_timedelta64_object", __pyx_f[1], 967, 0, __PYX_ERR(1, 967, __pyx_L1_error));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":978
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":979
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __Pyx_TraceLine(978,0,__PYX_ERR(1, 978, __pyx_L1_error))
+  __Pyx_TraceLine(979,0,__PYX_ERR(1, 979, __pyx_L1_error))
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":966
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":967
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -6064,7 +6064,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":981
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":982
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -6080,20 +6080,20 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("is_datetime64_object", 0);
-  __Pyx_TraceCall("is_datetime64_object", __pyx_f[1], 981, 0, __PYX_ERR(1, 981, __pyx_L1_error));
+  __Pyx_TraceCall("is_datetime64_object", __pyx_f[1], 982, 0, __PYX_ERR(1, 982, __pyx_L1_error));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":993
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":994
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __Pyx_TraceLine(993,0,__PYX_ERR(1, 993, __pyx_L1_error))
+  __Pyx_TraceLine(994,0,__PYX_ERR(1, 994, __pyx_L1_error))
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":981
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":982
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -6111,7 +6111,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":996
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":997
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -6125,20 +6125,20 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_TraceCall("get_datetime64_value", __pyx_f[1], 996, 1, __PYX_ERR(1, 996, __pyx_L1_error));
+  __Pyx_TraceCall("get_datetime64_value", __pyx_f[1], 997, 1, __PYX_ERR(1, 997, __pyx_L1_error));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":1003
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":1004
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __Pyx_TraceLine(1003,1,__PYX_ERR(1, 1003, __pyx_L1_error))
+  __Pyx_TraceLine(1004,1,__PYX_ERR(1, 1004, __pyx_L1_error))
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":996
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":997
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -6155,7 +6155,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":1006
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":1007
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -6169,20 +6169,20 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_TraceCall("get_timedelta64_value", __pyx_f[1], 1006, 1, __PYX_ERR(1, 1006, __pyx_L1_error));
+  __Pyx_TraceCall("get_timedelta64_value", __pyx_f[1], 1007, 1, __PYX_ERR(1, 1007, __pyx_L1_error));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":1010
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":1011
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __Pyx_TraceLine(1010,1,__PYX_ERR(1, 1010, __pyx_L1_error))
+  __Pyx_TraceLine(1011,1,__PYX_ERR(1, 1011, __pyx_L1_error))
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":1006
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":1007
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -6199,7 +6199,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":1013
+/* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":1014
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -6213,18 +6213,18 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_TraceCall("get_datetime64_unit", __pyx_f[1], 1013, 1, __PYX_ERR(1, 1013, __pyx_L1_error));
+  __Pyx_TraceCall("get_datetime64_unit", __pyx_f[1], 1014, 1, __PYX_ERR(1, 1014, __pyx_L1_error));
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":1017
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":1018
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
  */
-  __Pyx_TraceLine(1017,1,__PYX_ERR(1, 1017, __pyx_L1_error))
+  __Pyx_TraceLine(1018,1,__PYX_ERR(1, 1018, __pyx_L1_error))
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":1013
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":1014
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20464,7 +20464,7 @@ static PyBufferProcs __pyx_tp_as_buffer_array = {
 
 static PyTypeObject __pyx_type___pyx_array = {
   PyVarObject_HEAD_INIT(0, 0)
-  "arcticpy.main_utils.array", /*tp_name*/
+  "emccd_detect.arcticpy.main_utils.array", /*tp_name*/
   sizeof(struct __pyx_array_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_array, /*tp_dealloc*/
@@ -20586,7 +20586,7 @@ static PyMethodDef __pyx_methods_Enum[] = {
 
 static PyTypeObject __pyx_type___pyx_MemviewEnum = {
   PyVarObject_HEAD_INIT(0, 0)
-  "arcticpy.main_utils.Enum", /*tp_name*/
+  "emccd_detect.arcticpy.main_utils.Enum", /*tp_name*/
   sizeof(struct __pyx_MemviewEnum_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_Enum, /*tp_dealloc*/
@@ -20850,7 +20850,7 @@ static PyBufferProcs __pyx_tp_as_buffer_memoryview = {
 
 static PyTypeObject __pyx_type___pyx_memoryview = {
   PyVarObject_HEAD_INIT(0, 0)
-  "arcticpy.main_utils.memoryview", /*tp_name*/
+  "emccd_detect.arcticpy.main_utils.memoryview", /*tp_name*/
   sizeof(struct __pyx_memoryview_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_memoryview, /*tp_dealloc*/
@@ -20991,7 +20991,7 @@ static struct PyGetSetDef __pyx_getsets__memoryviewslice[] = {
 
 static PyTypeObject __pyx_type___pyx_memoryviewslice = {
   PyVarObject_HEAD_INIT(0, 0)
-  "arcticpy.main_utils._memoryviewslice", /*tp_name*/
+  "emccd_detect.arcticpy.main_utils._memoryviewslice", /*tp_name*/
   sizeof(struct __pyx_memoryviewslice_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc__memoryviewslice, /*tp_dealloc*/
@@ -21144,10 +21144,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
   {&__pyx_n_s_View_MemoryView, __pyx_k_View_MemoryView, sizeof(__pyx_k_View_MemoryView), 0, 0, 1, 1},
   {&__pyx_n_s_allocate_buffer, __pyx_k_allocate_buffer, sizeof(__pyx_k_allocate_buffer), 0, 0, 1, 1},
-  {&__pyx_n_s_arcticpy_main_utils, __pyx_k_arcticpy_main_utils, sizeof(__pyx_k_arcticpy_main_utils), 0, 0, 1, 1},
-  {&__pyx_kp_s_arcticpy_main_utils_pyx, __pyx_k_arcticpy_main_utils_pyx, sizeof(__pyx_k_arcticpy_main_utils_pyx), 0, 0, 1, 0},
-  {&__pyx_n_s_arcticpy_roe, __pyx_k_arcticpy_roe, sizeof(__pyx_k_arcticpy_roe), 0, 0, 1, 1},
-  {&__pyx_n_s_arcticpy_trap_managers, __pyx_k_arcticpy_trap_managers, sizeof(__pyx_k_arcticpy_trap_managers), 0, 0, 1, 1},
   {&__pyx_n_s_array, __pyx_k_array, sizeof(__pyx_k_array), 0, 0, 1, 1},
   {&__pyx_n_s_array___reduce_cython, __pyx_k_array___reduce_cython, sizeof(__pyx_k_array___reduce_cython), 0, 0, 1, 1},
   {&__pyx_n_s_array___setstate_cython, __pyx_k_array___setstate_cython, sizeof(__pyx_k_array___setstate_cython), 0, 0, 1, 1},
@@ -21177,6 +21173,10 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_dtype_is_object, __pyx_k_dtype_is_object, sizeof(__pyx_k_dtype_is_object), 0, 0, 1, 1},
   {&__pyx_n_s_dwell_time, __pyx_k_dwell_time, sizeof(__pyx_k_dwell_time), 0, 0, 1, 1},
   {&__pyx_n_s_dwell_times, __pyx_k_dwell_times, sizeof(__pyx_k_dwell_times), 0, 0, 1, 1},
+  {&__pyx_kp_s_emccd_detect_arcticpy_main_utils, __pyx_k_emccd_detect_arcticpy_main_utils, sizeof(__pyx_k_emccd_detect_arcticpy_main_utils), 0, 0, 1, 0},
+  {&__pyx_n_s_emccd_detect_arcticpy_main_utils_2, __pyx_k_emccd_detect_arcticpy_main_utils_2, sizeof(__pyx_k_emccd_detect_arcticpy_main_utils_2), 0, 0, 1, 1},
+  {&__pyx_n_s_emccd_detect_arcticpy_roe, __pyx_k_emccd_detect_arcticpy_roe, sizeof(__pyx_k_emccd_detect_arcticpy_roe), 0, 0, 1, 1},
+  {&__pyx_n_s_emccd_detect_arcticpy_trap_manag, __pyx_k_emccd_detect_arcticpy_trap_manag, sizeof(__pyx_k_emccd_detect_arcticpy_trap_manag), 0, 0, 1, 1},
   {&__pyx_n_s_empty_all_traps, __pyx_k_empty_all_traps, sizeof(__pyx_k_empty_all_traps), 0, 0, 1, 1},
   {&__pyx_n_s_empty_traps_between_columns, __pyx_k_empty_traps_between_columns, sizeof(__pyx_k_empty_traps_between_columns), 0, 0, 1, 1},
   {&__pyx_n_s_encode, __pyx_k_encode, sizeof(__pyx_k_encode), 0, 0, 1, 1},
@@ -21316,7 +21316,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
   __pyx_builtin_min = __Pyx_GetBuiltinName(__pyx_n_s_min); if (!__pyx_builtin_min) __PYX_ERR(0, 166, __pyx_L1_error)
   __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 177, __pyx_L1_error)
   __pyx_builtin_enumerate = __Pyx_GetBuiltinName(__pyx_n_s_enumerate); if (!__pyx_builtin_enumerate) __PYX_ERR(0, 135, __pyx_L1_error)
-  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(1, 944, __pyx_L1_error)
+  __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(1, 945, __pyx_L1_error)
   __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_n_s_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(2, 134, __pyx_L1_error)
   __pyx_builtin_MemoryError = __Pyx_GetBuiltinName(__pyx_n_s_MemoryError); if (!__pyx_builtin_MemoryError) __PYX_ERR(2, 149, __pyx_L1_error)
   __pyx_builtin_TypeError = __Pyx_GetBuiltinName(__pyx_n_s_TypeError); if (!__pyx_builtin_TypeError) __PYX_ERR(2, 2, __pyx_L1_error)
@@ -21332,7 +21332,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "arcticpy/main_utils.pyx":262
+  /* "emccd_detect/arcticpy/main_utils.pyx":262
  *     image_out = np.asarray(image)
  *     if n_rows_zero_padding > 0:
  *         image_out = image_out[0:-n_rows_zero_padding, :]             # <<<<<<<<<<<<<<
@@ -21343,25 +21343,25 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__2);
   __Pyx_GIVEREF(__pyx_slice__2);
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":944
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":945
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-  __pyx_tuple__3 = PyTuple_Pack(1, __pyx_kp_u_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(1, 944, __pyx_L1_error)
+  __pyx_tuple__3 = PyTuple_Pack(1, __pyx_kp_u_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(1, 945, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":950
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":951
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-  __pyx_tuple__4 = PyTuple_Pack(1, __pyx_kp_u_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(1, 950, __pyx_L1_error)
+  __pyx_tuple__4 = PyTuple_Pack(1, __pyx_kp_u_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(1, 951, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
@@ -21549,7 +21549,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__35);
   __Pyx_GIVEREF(__pyx_tuple__35);
 
-  /* "arcticpy/main_utils.pyx":14
+  /* "emccd_detect/arcticpy/main_utils.pyx":14
  * @cython.nonecheck(False)
  * @cython.wraparound(False)
  * def cy_clock_charge_in_one_direction(             # <<<<<<<<<<<<<<
@@ -21559,7 +21559,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__36 = PyTuple_Pack(45, __pyx_n_s_image_in, __pyx_n_s_ccd, __pyx_n_s_roe, __pyx_n_s_traps, __pyx_n_s_express, __pyx_n_s_offset, __pyx_n_s_window_row_range, __pyx_n_s_window_column_range, __pyx_n_s_time_window_range, __pyx_n_s_express_matrix, __pyx_n_s_monitor_traps_matrix, __pyx_n_s_save_trap_states_matrix, __pyx_n_s_i, __pyx_n_s_phases_with_traps, __pyx_n_s_steps_with_nonzero_dwell_time, __pyx_n_s_n_electrons_released_and_capture, __pyx_n_s_express_mulitplier, __pyx_n_s_n_free_electrons, __pyx_n_s_row_indices, __pyx_n_s_row_indices_write, __pyx_n_s_n_express_pass, __pyx_n_s_n_rows_to_process, __pyx_n_s_column_index, __pyx_n_s_express_index, __pyx_n_s_i_row, __pyx_n_s_row_index, __pyx_n_s_row_index_read, __pyx_n_s_i_clocking_step, __pyx_n_s_clocking_step, __pyx_n_s_i_phase, __pyx_n_s_phase, __pyx_n_s_row_index_write, __pyx_n_s_max_n_transfers, __pyx_n_s_trap_managers, __pyx_n_s_n_rows_zero_padding, __pyx_n_s_zero_padding, __pyx_n_s_image, __pyx_n_s_express_multiplier, __pyx_n_s_roe_phase, __pyx_n_s_trap_manager, __pyx_n_s_image_out, __pyx_n_s_i, __pyx_n_s_frac, __pyx_n_s_i, __pyx_n_s_time); if (unlikely(!__pyx_tuple__36)) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__36);
   __Pyx_GIVEREF(__pyx_tuple__36);
-  __pyx_codeobj_ = (PyObject*)__Pyx_PyCode_New(9, 0, 45, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_arcticpy_main_utils_pyx, __pyx_n_s_cy_clock_charge_in_one_direction, 14, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj_)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __pyx_codeobj_ = (PyObject*)__Pyx_PyCode_New(9, 0, 45, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_emccd_detect_arcticpy_main_utils, __pyx_n_s_cy_clock_charge_in_one_direction, 14, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj_)) __PYX_ERR(0, 14, __pyx_L1_error)
 
   /* "(tree fragment)":1
  * def __reduce_cython__(self):             # <<<<<<<<<<<<<<
@@ -21898,38 +21898,38 @@ static int __Pyx_modinit_type_import_code(void) {
   __Pyx_ImportType_CheckSize_Warn);
    if (!__pyx_ptype_7cpython_4type_type) __PYX_ERR(3, 9, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = PyImport_ImportModule("numpy"); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 199, __pyx_L1_error)
+  __pyx_t_1 = PyImport_ImportModule("numpy"); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 200, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_ptype_5numpy_dtype = __Pyx_ImportType(__pyx_t_1, "numpy", "dtype", sizeof(PyArray_Descr), __Pyx_ImportType_CheckSize_Ignore);
-   if (!__pyx_ptype_5numpy_dtype) __PYX_ERR(1, 199, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_dtype) __PYX_ERR(1, 200, __pyx_L1_error)
   __pyx_ptype_5numpy_flatiter = __Pyx_ImportType(__pyx_t_1, "numpy", "flatiter", sizeof(PyArrayIterObject), __Pyx_ImportType_CheckSize_Ignore);
-   if (!__pyx_ptype_5numpy_flatiter) __PYX_ERR(1, 222, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_flatiter) __PYX_ERR(1, 223, __pyx_L1_error)
   __pyx_ptype_5numpy_broadcast = __Pyx_ImportType(__pyx_t_1, "numpy", "broadcast", sizeof(PyArrayMultiIterObject), __Pyx_ImportType_CheckSize_Ignore);
-   if (!__pyx_ptype_5numpy_broadcast) __PYX_ERR(1, 226, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_broadcast) __PYX_ERR(1, 227, __pyx_L1_error)
   __pyx_ptype_5numpy_ndarray = __Pyx_ImportType(__pyx_t_1, "numpy", "ndarray", sizeof(PyArrayObject), __Pyx_ImportType_CheckSize_Ignore);
-   if (!__pyx_ptype_5numpy_ndarray) __PYX_ERR(1, 238, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_ndarray) __PYX_ERR(1, 239, __pyx_L1_error)
   __pyx_ptype_5numpy_generic = __Pyx_ImportType(__pyx_t_1, "numpy", "generic", sizeof(PyObject), __Pyx_ImportType_CheckSize_Warn);
-   if (!__pyx_ptype_5numpy_generic) __PYX_ERR(1, 770, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_generic) __PYX_ERR(1, 771, __pyx_L1_error)
   __pyx_ptype_5numpy_number = __Pyx_ImportType(__pyx_t_1, "numpy", "number", sizeof(PyObject), __Pyx_ImportType_CheckSize_Warn);
-   if (!__pyx_ptype_5numpy_number) __PYX_ERR(1, 772, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_number) __PYX_ERR(1, 773, __pyx_L1_error)
   __pyx_ptype_5numpy_integer = __Pyx_ImportType(__pyx_t_1, "numpy", "integer", sizeof(PyObject), __Pyx_ImportType_CheckSize_Warn);
-   if (!__pyx_ptype_5numpy_integer) __PYX_ERR(1, 774, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_integer) __PYX_ERR(1, 775, __pyx_L1_error)
   __pyx_ptype_5numpy_signedinteger = __Pyx_ImportType(__pyx_t_1, "numpy", "signedinteger", sizeof(PyObject), __Pyx_ImportType_CheckSize_Warn);
-   if (!__pyx_ptype_5numpy_signedinteger) __PYX_ERR(1, 776, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_signedinteger) __PYX_ERR(1, 777, __pyx_L1_error)
   __pyx_ptype_5numpy_unsignedinteger = __Pyx_ImportType(__pyx_t_1, "numpy", "unsignedinteger", sizeof(PyObject), __Pyx_ImportType_CheckSize_Warn);
-   if (!__pyx_ptype_5numpy_unsignedinteger) __PYX_ERR(1, 778, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_unsignedinteger) __PYX_ERR(1, 779, __pyx_L1_error)
   __pyx_ptype_5numpy_inexact = __Pyx_ImportType(__pyx_t_1, "numpy", "inexact", sizeof(PyObject), __Pyx_ImportType_CheckSize_Warn);
-   if (!__pyx_ptype_5numpy_inexact) __PYX_ERR(1, 780, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_inexact) __PYX_ERR(1, 781, __pyx_L1_error)
   __pyx_ptype_5numpy_floating = __Pyx_ImportType(__pyx_t_1, "numpy", "floating", sizeof(PyObject), __Pyx_ImportType_CheckSize_Warn);
-   if (!__pyx_ptype_5numpy_floating) __PYX_ERR(1, 782, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_floating) __PYX_ERR(1, 783, __pyx_L1_error)
   __pyx_ptype_5numpy_complexfloating = __Pyx_ImportType(__pyx_t_1, "numpy", "complexfloating", sizeof(PyObject), __Pyx_ImportType_CheckSize_Warn);
-   if (!__pyx_ptype_5numpy_complexfloating) __PYX_ERR(1, 784, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_complexfloating) __PYX_ERR(1, 785, __pyx_L1_error)
   __pyx_ptype_5numpy_flexible = __Pyx_ImportType(__pyx_t_1, "numpy", "flexible", sizeof(PyObject), __Pyx_ImportType_CheckSize_Warn);
-   if (!__pyx_ptype_5numpy_flexible) __PYX_ERR(1, 786, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_flexible) __PYX_ERR(1, 787, __pyx_L1_error)
   __pyx_ptype_5numpy_character = __Pyx_ImportType(__pyx_t_1, "numpy", "character", sizeof(PyObject), __Pyx_ImportType_CheckSize_Warn);
-   if (!__pyx_ptype_5numpy_character) __PYX_ERR(1, 788, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_character) __PYX_ERR(1, 789, __pyx_L1_error)
   __pyx_ptype_5numpy_ufunc = __Pyx_ImportType(__pyx_t_1, "numpy", "ufunc", sizeof(PyUFuncObject), __Pyx_ImportType_CheckSize_Ignore);
-   if (!__pyx_ptype_5numpy_ufunc) __PYX_ERR(1, 826, __pyx_L1_error)
+   if (!__pyx_ptype_5numpy_ufunc) __PYX_ERR(1, 827, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_RefNannyFinishContext();
   return 0;
@@ -22130,14 +22130,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_arcticpy__main_utils) {
+  if (__pyx_module_is_main_emccd_detect__arcticpy__main_utils) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name_2, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "arcticpy.main_utils")) {
-      if (unlikely(PyDict_SetItemString(modules, "arcticpy.main_utils", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "emccd_detect.arcticpy.main_utils")) {
+      if (unlikely(PyDict_SetItemString(modules, "emccd_detect.arcticpy.main_utils", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -22159,7 +22159,7 @@ if (!__Pyx_RefNanny) {
   #endif
   __Pyx_TraceCall("__Pyx_PyMODINIT_FUNC PyInit_main_utils(void)", __pyx_f[0], 1, 0, __PYX_ERR(0, 1, __pyx_L1_error));
 
-  /* "arcticpy/main_utils.pyx":2
+  /* "emccd_detect/arcticpy/main_utils.pyx":2
  * cimport numpy as np
  * import numpy as np             # <<<<<<<<<<<<<<
  * 
@@ -22171,11 +22171,11 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "arcticpy/main_utils.pyx":7
+  /* "emccd_detect/arcticpy/main_utils.pyx":7
  * cimport cython
  * 
- * from arcticpy.roe import ROETrapPumping             # <<<<<<<<<<<<<<
- * from arcticpy.trap_managers import AllTrapManager
+ * from emccd_detect.arcticpy.roe import ROETrapPumping             # <<<<<<<<<<<<<<
+ * from emccd_detect.arcticpy.trap_managers import AllTrapManager
  * 
  */
   __Pyx_TraceLine(7,0,__PYX_ERR(0, 7, __pyx_L1_error))
@@ -22184,7 +22184,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_INCREF(__pyx_n_s_ROETrapPumping);
   __Pyx_GIVEREF(__pyx_n_s_ROETrapPumping);
   PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_ROETrapPumping);
-  __pyx_t_2 = __Pyx_Import(__pyx_n_s_arcticpy_roe, __pyx_t_1, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 7, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_emccd_detect_arcticpy_roe, __pyx_t_1, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 7, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_ROETrapPumping); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 7, __pyx_L1_error)
@@ -22193,10 +22193,10 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "arcticpy/main_utils.pyx":8
+  /* "emccd_detect/arcticpy/main_utils.pyx":8
  * 
- * from arcticpy.roe import ROETrapPumping
- * from arcticpy.trap_managers import AllTrapManager             # <<<<<<<<<<<<<<
+ * from emccd_detect.arcticpy.roe import ROETrapPumping
+ * from emccd_detect.arcticpy.trap_managers import AllTrapManager             # <<<<<<<<<<<<<<
  * 
  * 
  */
@@ -22206,7 +22206,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_INCREF(__pyx_n_s_AllTrapManager);
   __Pyx_GIVEREF(__pyx_n_s_AllTrapManager);
   PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s_AllTrapManager);
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_arcticpy_trap_managers, __pyx_t_2, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 8, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_emccd_detect_arcticpy_trap_manag, __pyx_t_2, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_AllTrapManager); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 8, __pyx_L1_error)
@@ -22215,7 +22215,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "arcticpy/main_utils.pyx":14
+  /* "emccd_detect/arcticpy/main_utils.pyx":14
  * @cython.nonecheck(False)
  * @cython.wraparound(False)
  * def cy_clock_charge_in_one_direction(             # <<<<<<<<<<<<<<
@@ -22223,12 +22223,12 @@ if (!__Pyx_RefNanny) {
  *     ccd,
  */
   __Pyx_TraceLine(14,0,__PYX_ERR(0, 14, __pyx_L1_error))
-  __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_8arcticpy_10main_utils_1cy_clock_charge_in_one_direction, 0, __pyx_n_s_cy_clock_charge_in_one_direction, NULL, __pyx_n_s_arcticpy_main_utils, __pyx_d, ((PyObject *)__pyx_codeobj_)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_CyFunction_New(&__pyx_mdef_12emccd_detect_8arcticpy_10main_utils_1cy_clock_charge_in_one_direction, 0, __pyx_n_s_cy_clock_charge_in_one_direction, NULL, __pyx_n_s_emccd_detect_arcticpy_main_utils_2, __pyx_d, ((PyObject *)__pyx_codeobj_)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_cy_clock_charge_in_one_direction, __pyx_t_1) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "arcticpy/main_utils.pyx":1
+  /* "emccd_detect/arcticpy/main_utils.pyx":1
  * cimport numpy as np             # <<<<<<<<<<<<<<
  * import numpy as np
  * 
@@ -22239,164 +22239,164 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_1) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":734
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":735
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  */
-  __Pyx_TraceLine(734,0,__PYX_ERR(1, 734, __pyx_L1_error))
+  __Pyx_TraceLine(735,0,__PYX_ERR(1, 735, __pyx_L1_error))
 
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":737
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":738
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  */
-  __Pyx_TraceLine(737,0,__PYX_ERR(1, 737, __pyx_L1_error))
+  __Pyx_TraceLine(738,0,__PYX_ERR(1, 738, __pyx_L1_error))
 
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":740
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":741
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  */
-  __Pyx_TraceLine(740,0,__PYX_ERR(1, 740, __pyx_L1_error))
+  __Pyx_TraceLine(741,0,__PYX_ERR(1, 741, __pyx_L1_error))
 
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":743
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":744
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  */
-  __Pyx_TraceLine(743,0,__PYX_ERR(1, 743, __pyx_L1_error))
+  __Pyx_TraceLine(744,0,__PYX_ERR(1, 744, __pyx_L1_error))
 
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":746
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":747
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  */
-  __Pyx_TraceLine(746,0,__PYX_ERR(1, 746, __pyx_L1_error))
+  __Pyx_TraceLine(747,0,__PYX_ERR(1, 747, __pyx_L1_error))
 
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":749
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":750
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape
  */
-  __Pyx_TraceLine(749,0,__PYX_ERR(1, 749, __pyx_L1_error))
+  __Pyx_TraceLine(750,0,__PYX_ERR(1, 750, __pyx_L1_error))
 
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":928
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":929
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)
  */
-  __Pyx_TraceLine(928,0,__PYX_ERR(1, 928, __pyx_L1_error))
+  __Pyx_TraceLine(929,0,__PYX_ERR(1, 929, __pyx_L1_error))
 
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":932
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":933
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  */
-  __Pyx_TraceLine(932,0,__PYX_ERR(1, 932, __pyx_L1_error))
+  __Pyx_TraceLine(933,0,__PYX_ERR(1, 933, __pyx_L1_error))
 
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":940
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":941
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
  *     try:
  *         __pyx_import_array()
  */
-  __Pyx_TraceLine(940,0,__PYX_ERR(1, 940, __pyx_L1_error))
+  __Pyx_TraceLine(941,0,__PYX_ERR(1, 941, __pyx_L1_error))
 
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":946
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":947
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
  *     try:
  *         _import_umath()
  */
-  __Pyx_TraceLine(946,0,__PYX_ERR(1, 946, __pyx_L1_error))
+  __Pyx_TraceLine(947,0,__PYX_ERR(1, 947, __pyx_L1_error))
 
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":952
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":953
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
  *     try:
  *         _import_umath()
  */
-  __Pyx_TraceLine(952,0,__PYX_ERR(1, 952, __pyx_L1_error))
+  __Pyx_TraceLine(953,0,__PYX_ERR(1, 953, __pyx_L1_error))
 
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":966
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":967
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
  *     """
  *     Cython equivalent of `isinstance(obj, np.timedelta64)`
  */
-  __Pyx_TraceLine(966,0,__PYX_ERR(1, 966, __pyx_L1_error))
+  __Pyx_TraceLine(967,0,__PYX_ERR(1, 967, __pyx_L1_error))
 
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":981
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":982
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
  *     """
  *     Cython equivalent of `isinstance(obj, np.datetime64)`
  */
-  __Pyx_TraceLine(981,0,__PYX_ERR(1, 981, __pyx_L1_error))
+  __Pyx_TraceLine(982,0,__PYX_ERR(1, 982, __pyx_L1_error))
 
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":996
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":997
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
  *     """
  *     returns the int64 value underlying scalar numpy datetime64 object
  */
-  __Pyx_TraceLine(996,0,__PYX_ERR(1, 996, __pyx_L1_error))
+  __Pyx_TraceLine(997,0,__PYX_ERR(1, 997, __pyx_L1_error))
 
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":1006
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":1007
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
  *     """
  *     returns the int64 value underlying scalar numpy timedelta64 object
  */
-  __Pyx_TraceLine(1006,0,__PYX_ERR(1, 1006, __pyx_L1_error))
+  __Pyx_TraceLine(1007,0,__PYX_ERR(1, 1007, __pyx_L1_error))
 
 
-  /* "../../../anaconda3/envs/arctic_test/lib/site-packages/numpy/__init__.pxd":1013
+  /* "../../../../anaconda3/envs/arctic_test_py7/lib/site-packages/numpy/__init__.pxd":1014
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
  *     """
  *     returns the unit part of the dtype for a numpy datetime64 object.
  */
-  __Pyx_TraceLine(1013,0,__PYX_ERR(1, 1013, __pyx_L1_error))
+  __Pyx_TraceLine(1014,0,__PYX_ERR(1, 1014, __pyx_L1_error))
 
 
   /* "View.MemoryView":210
@@ -23144,11 +23144,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init arcticpy.main_utils", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init emccd_detect.arcticpy.main_utils", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_CLEAR(__pyx_m);
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init arcticpy.main_utils");
+    PyErr_SetString(PyExc_ImportError, "init emccd_detect.arcticpy.main_utils");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
