@@ -7,6 +7,8 @@ from pathlib import Path
 import numpy as np
 import matplotlib.pyplot as plt
 from astropy.io import fits
+# import pyximport
+# pyximport.install(setup_args={"script_args" : ["--verbose"]})
 
 from emccd_detect.emccd_detect import EMCCDDetect, emccd_detect
 

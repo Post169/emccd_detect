@@ -23,8 +23,8 @@ from copy import deepcopy
 
 from autoarray.structures import frames
 
-# import pyximport
-# pyximport.install()
+import pyximport
+pyximport.install()
 from emccd_detect.arcticpy.roe import ROE, ROETrapPumping
 from emccd_detect.arcticpy.ccd import CCD, CCDPhase
 from emccd_detect.arcticpy.trap_managers import AllTrapManager
