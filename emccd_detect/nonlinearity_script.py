@@ -26,6 +26,13 @@ def imagesc(data, title=None, vmin=None, vmax=None, cmap='viridis',
 
     return fig, ax
 
+def _nonlin(dn_init, em_gain, nonlin_DNs, nonlin_emgains, nonlin_vals):
+    from scipy.interpolate import griddata
+    emgainM, dninitM = np.meshgrid(nonlin_emgains,nonlin_DNs)
+    final_DN = griddata((emgainM.flatten(), dninitM.flatten()), nonlin_vals,...
+                        (em_gain,dn_init), method='linear')
+    return final_DN
+
 
 if __name__ == '__main__':
     # Set up some inputs here
@@ -42,8 +49,8 @@ if __name__ == '__main__':
     csv_name = "nonlin_array.csv"
     # Prepare nonlinearity data to be interpolated
     nonlin_df = pd.read_csv(csv_name)
-    nonlin_cols = np.array(nonlin_df.iloc[0,1:])
-    nonlin_rows = np.array(nonlin_df.iloc[1:,0])
+    nonlin_emgains = np.array(nonlin_df.iloc[0,1:])
+    nonlin_DNs = np.array(nonlin_df.iloc[1:,0])
     nonlin_vals = nonlin_df.iloc[1:,1:]
     
 
@@ -102,9 +109,13 @@ if __name__ == '__main__':
     
     # Simulate only the fluxmap
     sim_sub_frame = emccd.sim_sub_frame(fluxmap, frametime)
+    # Add the nonlinearity to that
+    nonlin_subframe = _nonlin(sim_sub_frame, em_gain, nonlin_DNs, nonlin_emgains, nonlin_vals)
     # Simulate the full frame (surround the full fluxmap with prescan, etc.)
     sim_full_frame = emccd.sim_full_frame(full_fluxmap, frametime)
-
+    # Add the nonlinearity:
+    nonlin_fullframe = _nonlin(sim_full_frame, em_gain, nonlin_DNs, nonlin_emgains, nonlin_vals)
+    
 
     # The class also has some convenience functions to help with inspecting the
     # simulated frame
