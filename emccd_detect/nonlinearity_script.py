@@ -9,8 +9,6 @@ from astropy.io import fits
 import pandas as pd
 from emccd_detect.emccd_detect import EMCCDDetect, emccd_detect
 
-plt.close('all')
-
 def imagesc(data, title=None, vmin=None, vmax=None, cmap='viridis',
             aspect='equal', colorbar=True):
     """Plot a scaled colormap."""
@@ -25,6 +23,19 @@ def imagesc(data, title=None, vmin=None, vmax=None, cmap='viridis',
 
     return fig, ax
 
+def nonlinearityFactor()
+    from scipy.interpolate import interp1d
+    # Specify filename containing nonlinearity data
+    nonlin_df =  pd.read_csv('nonlin_array.csv')
+    marks = np.array(nonlin_df.iloc[1:,0])
+    gains_avail = np.float64(np.array(nonlin_df.columns[1:]))
+    nearest_gain = interp1d(gains_avail,gains_avail,kind='nearest')
+    gain_used = nearest_gain(em_gain)
+    g_u_idx = np.searchsorted(gains_avail, gain_used)
+    nonlins_known = np.array(nonlin_df.iloc[1:,g_u_idx+1])
+    
+    
+    
 def _nonlin(dn_init, em_gain, nonlin_DNs, nonlin_emgains, nonlin_vals):
     from scipy.interpolate import griddata
     em_gain_log = np.log10(em_gain)
@@ -46,13 +57,13 @@ if __name__ == '__main__':
     full_fluxmap[0:fluxmap.shape[0], 0:fluxmap.shape[1]] = fluxmap
     # Specify frametime
     frametime = 100  # s
-    # Load CSV of nonlinearities
-    csv_name = "nonlin_array.csv"
-    # Prepare nonlinearity data to be interpolated
-    nonlin_df = pd.read_csv(csv_name)
-    nonlin_emgains = np.array(nonlin_df.columns[1:])
-    nonlin_DNs = np.array(nonlin_df.iloc[1:,0])
-    nonlin_vals = np.float64(nonlin_df.iloc[1:,1:])
+    # # Load CSV of nonlinearities
+    # csv_name = "nonlin_array.csv"
+    # # Prepare nonlinearity data to be interpolated
+    # nonlin_df = pd.read_csv(csv_name)
+    # nonlin_emgains = np.array(nonlin_df.columns[1:])
+    # nonlin_DNs = np.array(nonlin_df.iloc[1:,0])
+    # nonlin_vals = np.float64(nonlin_df.iloc[1:,1:])
     
 
     # For the simplest possible use of EMCCDDetect, use its defaults
