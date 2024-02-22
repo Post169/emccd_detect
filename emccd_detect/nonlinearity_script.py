@@ -23,16 +23,32 @@ def imagesc(data, title=None, vmin=None, vmax=None, cmap='viridis',
 
     return fig, ax
 
-def nonlinearityFactor()
+def nonlinearityFactor(c_init,em_gain):
     from scipy.interpolate import interp1d
+    
     # Specify filename containing nonlinearity data
     nonlin_df =  pd.read_csv('nonlin_array.csv')
+    
+    # Extract the magnitudes covered, the gains covered
     marks = np.array(nonlin_df.iloc[1:,0])
     gains_avail = np.float64(np.array(nonlin_df.columns[1:]))
+    
+    # Find the gain covered that is nearest to specified em_gain
     nearest_gain = interp1d(gains_avail,gains_avail,kind='nearest')
     gain_used = nearest_gain(em_gain)
     g_u_idx = np.searchsorted(gains_avail, gain_used)
+    
+    # Extract the nonlinearity factors relevant to the gain being used
     nonlins_known = np.array(nonlin_df.iloc[1:,g_u_idx+1])
+    
+    # From this data, interpolate the nonlinearity factor for each pixel
+    c_flat = c_init.flatten()
+    nl_flat = np.interp(c_flat,marks,nonlins_known)
+    nl = nl_flat.reshape(c_init.shape)
+    c_final = np.multiply(c_init,nl)
+    ratio = c_init/c_final
+    return nl, c_final
+    
     
     
     
@@ -121,12 +137,13 @@ if __name__ == '__main__':
     
     # Simulate only the fluxmap
     sim_sub_frame = emccd.sim_sub_frame(fluxmap, frametime)
-    # Add the nonlinearity to that
-    nonlin_subframe = _nonlin(sim_sub_frame, em_gain, nonlin_DNs, nonlin_emgains, nonlin_vals)
+    # Determine the nonlinearity of this array
+    subframe_nonlinearity, subframe_minus_nonlin = nonlinearityFactor(sim_sub_frame, em_gain)
+    
     # Simulate the full frame (surround the full fluxmap with prescan, etc.)
     sim_full_frame = emccd.sim_full_frame(full_fluxmap, frametime)
     # Add the nonlinearity:
-    nonlin_fullframe = _nonlin(sim_full_frame, em_gain, nonlin_DNs, nonlin_emgains, nonlin_vals)
+    fullframe_nonlinearity, fullframe_minus_nonlin = nonlinearityFactor(sim_full_frame, em_gain)
     
 
     # The class also has some convenience functions to help with inspecting the
