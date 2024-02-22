@@ -65,7 +65,7 @@ if __name__ == '__main__':
     # Set up some inputs here
     here = os.path.abspath(os.path.dirname(__file__))
     # Get fluxmap
-    fits_path = Path(here, 'data', 'sci_fluxmap.fits')
+    fits_path = Path(here, 'data', 'ramp_frame.fits') # 'sci_fluxmap.fits')
     fluxmap = fits.getdata(fits_path).astype(float)  # (photons/pix/s)
     # Put fluxmap in 1024x1024 image section
     full_fluxmap = np.zeros((1024, 1024)).astype(float)
@@ -116,7 +116,7 @@ if __name__ == '__main__':
     meta_path = Path(here, 'emccd_detect', 'util', 'metadata.yaml')
     # Note that the defaults for full_well_serial and eperdn are specified in
     # the metadata file
-    em_gain=50.
+    em_gain=10.
     emccd = EMCCDDetect(
         em_gain=em_gain,
         full_well_image=60000.,  # e-
@@ -126,7 +126,7 @@ if __name__ == '__main__':
         read_noise=100.,  # e-/pix/frame
         bias=10000.,  # e-
         qe=0.9,
-        cr_rate=5.,  # hits/cm^2/s
+        cr_rate=0, #5.,  # hits/cm^2/s
         pixel_pitch=13e-6,  # m
         eperdn=7.,
         nbits=14,
@@ -155,8 +155,8 @@ if __name__ == '__main__':
     prescan = emccd.slice_prescan(sim_full_frame)
 
 
-    # For legacy purposes, the class can also be called from a function wrapper
-    sim_old_style = emccd_detect(fluxmap, frametime, em_gain=5000.)
+    # # For legacy purposes, the class can also be called from a function wrapper
+    # sim_old_style = emccd_detect(fluxmap, frametime, em_gain=5000.)
 
     # Plot images
     imagesc(full_fluxmap, 'Input Fluxmap')
