@@ -3,14 +3,13 @@
 
 import os
 from pathlib import Path
-
 import numpy as np
 import matplotlib.pyplot as plt
 from astropy.io import fits
 import pandas as pd
-
 from emccd_detect.emccd_detect import EMCCDDetect, emccd_detect
 
+plt.close('all')
 
 def imagesc(data, title=None, vmin=None, vmax=None, cmap='viridis',
             aspect='equal', colorbar=True):
@@ -28,11 +27,13 @@ def imagesc(data, title=None, vmin=None, vmax=None, cmap='viridis',
 
 def _nonlin(dn_init, em_gain, nonlin_DNs, nonlin_emgains, nonlin_vals):
     from scipy.interpolate import griddata
-    emgainM, dninitM = np.meshgrid(nonlin_emgains,nonlin_DNs)
-    final_DN = griddata((emgainM.flatten(), dninitM.flatten()), nonlin_vals,...
-                        (em_gain,dn_init), method='linear')
+    em_gain_log = np.log10(em_gain)
+    log_nonlin_emgains = np.log10(nonlin_emgains)
+    emgainLogMesh, dnMesh = np.meshgrid(log_nonlin_emgains,nonlin_DNs)
+    # final_DN = griddata((emgainMesh.flatten(), dnMesh.flatten()), nonlin_vals.flatten(),
+    #                     (em_gain,dn_init), method='linear')
+    final_DN = griddata((emgainLogMesh, dnMesh), nonlin_vals,(em_gain_log,dn_init), method='linear')
     return final_DN
-
 
 if __name__ == '__main__':
     # Set up some inputs here
@@ -49,9 +50,9 @@ if __name__ == '__main__':
     csv_name = "nonlin_array.csv"
     # Prepare nonlinearity data to be interpolated
     nonlin_df = pd.read_csv(csv_name)
-    nonlin_emgains = np.array(nonlin_df.iloc[0,1:])
+    nonlin_emgains = np.array(nonlin_df.columns[1:])
     nonlin_DNs = np.array(nonlin_df.iloc[1:,0])
-    nonlin_vals = nonlin_df.iloc[1:,1:]
+    nonlin_vals = np.float64(nonlin_df.iloc[1:,1:])
     
 
     # For the simplest possible use of EMCCDDetect, use its defaults
@@ -89,7 +90,7 @@ if __name__ == '__main__':
     meta_path = Path(here, 'emccd_detect', 'util', 'metadata.yaml')
     # Note that the defaults for full_well_serial and eperdn are specified in
     # the metadata file
-    em_gain=5000.
+    em_gain=50.
     emccd = EMCCDDetect(
         em_gain=em_gain,
         full_well_image=60000.,  # e-
@@ -133,5 +134,7 @@ if __name__ == '__main__':
     # Plot images
     imagesc(full_fluxmap, 'Input Fluxmap')
     imagesc(sim_sub_frame, 'Output Sub Frame')
+    imagesc(nonlin_subframe, 'Output Sub Frame w Nonlinearity')
     imagesc(sim_full_frame, 'Output Full Frame')
+    imagesc(nonlin_fullframe, 'Output Full Frame w Nonlinearity')
     plt.show()
