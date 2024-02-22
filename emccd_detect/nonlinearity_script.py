@@ -46,7 +46,6 @@ def nonlinearityFactor(c_init,em_gain):
     nl_flat = np.interp(c_flat,marks,nonlins_known)
     nl = nl_flat.reshape(c_init.shape)
     c_final = np.multiply(c_init,nl)
-    ratio = c_init/c_final
     return nl, c_final
     
     
@@ -138,12 +137,12 @@ if __name__ == '__main__':
     # Simulate only the fluxmap
     sim_sub_frame = emccd.sim_sub_frame(fluxmap, frametime)
     # Determine the nonlinearity of this array
-    subframe_nonlinearity, subframe_minus_nonlin = nonlinearityFactor(sim_sub_frame, em_gain)
+    subframe_nonlinearity, subframe_x_nonlin = nonlinearityFactor(sim_sub_frame, em_gain)
     
     # Simulate the full frame (surround the full fluxmap with prescan, etc.)
     sim_full_frame = emccd.sim_full_frame(full_fluxmap, frametime)
     # Add the nonlinearity:
-    fullframe_nonlinearity, fullframe_minus_nonlin = nonlinearityFactor(sim_full_frame, em_gain)
+    fullframe_nonlinearity, fullframe_x_nonlin = nonlinearityFactor(sim_full_frame, em_gain)
     
 
     # The class also has some convenience functions to help with inspecting the
@@ -162,7 +161,9 @@ if __name__ == '__main__':
     # Plot images
     imagesc(full_fluxmap, 'Input Fluxmap')
     imagesc(sim_sub_frame, 'Output Sub Frame')
-    imagesc(nonlin_subframe, 'Output Sub Frame w Nonlinearity')
+    imagesc(subframe_x_nonlin, 'Output Sub Frame w Nonlinearity')
+    imagesc(subframe_nonlinearity, 'Nonlinearity of Sub Frame')
     imagesc(sim_full_frame, 'Output Full Frame')
-    imagesc(nonlin_fullframe, 'Output Full Frame w Nonlinearity')
-    plt.show()
+    imagesc(fullframe_x_nonlin, 'Output Full Frame w Nonlinearity')
+    imagesc(fullframe_nonlinearity, 'Nonlinearity of Full Frame')
+    # plt.show()
