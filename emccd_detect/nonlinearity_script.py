@@ -27,7 +27,7 @@ def nonlinearityFactor(c_init,em_gain):
     from scipy.interpolate import interp1d
     
     # Specify filename containing nonlinearity data
-    nonlin_df =  pd.read_csv('nonlin_estimate.csv')
+    nonlin_df =  pd.read_csv('nonlin_of_1.csv') # 'nonlin_estimate.csv')
     
     # Extract the magnitudes covered, the gains covered
     marks = np.array(nonlin_df.iloc[1:,0])
@@ -49,8 +49,8 @@ def nonlinearityFactor(c_init,em_gain):
     return nl, c_final
 
 if __name__ == '__main__':
-    exposureTimes = np.array([2,5,7],dtype=int) #np.array([2,5,7])
-    numFrames = 48 #5 #35
+    exposureTimes = np.array([2,5,7],dtype=int) #np.array([1],dtype=int) #
+    numFrames = 48 #1 #
     # Set up some inputs here
     here = os.path.abspath(os.path.dirname(__file__))
     # Get fluxmap
@@ -106,7 +106,7 @@ if __name__ == '__main__':
                 dark_current=.00028,  # e-/pix/s
                 cic=0.02,  # e-/pix/frame
                 read_noise=140.,  # e-/pix/frame
-                bias=3000.,  # e-
+                bias= 3000.,  # e-
                 qe=0.9,
                 cr_rate=0, #5.,  # hits/cm^2/s
                 pixel_pitch=13e-6,  # m
@@ -127,8 +127,9 @@ if __name__ == '__main__':
             fullframe_nonlinearity, fullframe_x_nonlin = nonlinearityFactor(sim_full_frame, em_gain)
             
             # Save Full Frame With Nonlinearity to FITS
-            fitsfile = fits.HDUList([fits.PrimaryHDU(fullframe_x_nonlin)])
-            fitsfile.writeto('./Output/Nonlinearity_'+str(frametime)+'s_'+str(iframe)+'.fits',overwrite=True)
+            if 1:
+                fitsfile = fits.HDUList([fits.PrimaryHDU(fullframe_x_nonlin)])
+                fitsfile.writeto('./Output/Linear_'+str(frametime)+'s_'+str(iframe)+'.fits',overwrite=True)
         
             # # The class also has some convenience functions to help with inspecting the
             # # simulated frame
