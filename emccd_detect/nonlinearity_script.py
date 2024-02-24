@@ -26,7 +26,7 @@ def nonlinearityFactor(c_init,em_gain):
     from scipy.interpolate import interp1d
     
     # Specify filename containing nonlinearity data
-    nonlin_df =  pd.read_csv('nonlin_of_1.csv') # 'nonlin_estimate.csv')
+    nonlin_df =  pd.read_csv('nonlin_estimate.csv') #'nonlin_of_1.csv') #
     
     # Extract the magnitudes covered, the gains covered
     marks = np.array(nonlin_df.iloc[1:,0])
@@ -48,8 +48,8 @@ def nonlinearityFactor(c_init,em_gain):
     return nl, c_final
 
 if __name__ == '__main__':
-    exposureTimes = np.array([1],dtype=int) #np.array([2,5,7],dtype=int) #
-    numFrames = 1 #48 #
+    exposureTimes = np.array([2,5,7],dtype=int) #np.array([1],dtype=int) #
+    numFrames = 48 #1 #
     display = 1
     save = 1
     # Set up some inputs here
@@ -132,7 +132,7 @@ if __name__ == '__main__':
             # Save Full Frame With Nonlinearity to FITS
             if save:
                 fitsfile = fits.HDUList([fits.PrimaryHDU(fullframe_x_nonlin)])
-                fitsfile.writeto('./Output/Linear_'+str(frametime)+'s_'+str(iframe)+'.fits',overwrite=True)
+                fitsfile.writeto('./Output/Nonlinearity_'+str(frametime)+'s_'+str(iframe)+'.fits',overwrite=True)#Linear_'+str(frametime)+'s_'+str(iframe)+'.fits',overwrite=True)
         
             # # The class also has some convenience functions to help with inspecting the
             # # simulated frame
